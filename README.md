@@ -29,7 +29,7 @@ Software is not an official addon or tool. Use of the Software
 Our missions are based on the [F3 Mission Framework](https://github.com/ferstaberinde/F3) by [@ferstaberinde](https://github.com/ferstaberinde). Without Fer and
 his team, none of this would be possible
 
-We owe immeasurable thanks to [@arctor](https://github.com/ferstaberinde) for spending a ludicrous
+We owe immeasurable thanks to [@arctor](https://github.com/arctor) for spending a ludicrous
 amount of time developing an initial framework and teaching us the black
 magic ways of SQF along the way.
 
