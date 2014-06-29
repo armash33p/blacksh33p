@@ -248,6 +248,8 @@ class Params
 
 // ============================================================================================
 
+	#include "s\cfg\params.hpp"
+	
 // F3 - End of Params code blocks.
 // WARNING: DO NOT DELETE OR COMMENT OUT THIS CODE BLOCK
 
