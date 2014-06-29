@@ -248,6 +248,7 @@ class Params
 
 // ============================================================================================
 
+	// Include Sh33p Parameters
 	#include "s\cfg\params.hpp"
 	
 // F3 - End of Params code blocks.

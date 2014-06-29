@@ -1,17 +1,4 @@
-// UAV Establishing Shot
-// To create the orbiting UAV introduction video, uncomment this code
-// and create a marker named "m_intro_uav" in the mission
-// Adjust altitude, radius, viewing angle, and movement direction as needed
-
-//[
-//    getMarkerPos "m_intro_uav", // Target position (create a marker named "m_intro_uav")
-//   "Black Sh33p", // SITREP text
-//    150, // altitude
-//    100, // radius
-//    60, // viewing angle (degrees)
-//    0, // movement direction
-//    []
-//] spawn BIS_fnc_establishingShot;
+#include "s\uav.sqf"
 
 // F3 - Briefing
 // Credits: Please see the F3 online manual (http://www.ferstaberinde.com/f3/en/)

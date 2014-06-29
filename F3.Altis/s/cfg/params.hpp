@@ -7,8 +7,16 @@ class Params
 		texts[] = {""};
 		default = 0;
 		code = "";
-	};	
-	class f_spacer_5
+	};
+	class f_param_uav
+	{
+		title = "::	UAV Introduction:";
+		values[] = {0, 1};
+		texts[] = {"Off", "On"};
+		default = 0;
+		code = "f_param_uav = %1;";
+	};
+	class f_spacer_1
 	{
 		title = "::	Headless Client:";
 		values[] = {0};
