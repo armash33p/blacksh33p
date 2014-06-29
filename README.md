@@ -14,8 +14,8 @@ All content herein is (c) 2014 by Black Sh33p. All rights reserved.
 This source (hereafter 'Software') contains files to be used in the
 PC simulator ArmA 3. To use the Software you must agree to the following
 conditions of use:
-1. Black Sh33p (hereafter 'The Author(s)') grant to you a personal,
-	non-exclusive license to use the Software.
+
+1. Black Sh33p (hereafter 'The Author(s)') grant to you a personal, non-exclusive license to use the Software.
 2. The commercial exploitation of the Software without written permission
 	from The Author(s) is expressly prohibited.
 
