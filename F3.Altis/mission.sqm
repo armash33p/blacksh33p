@@ -3,66 +3,9 @@ class Mission
 {
 	addOns[]=
 	{
-		"A3_Characters_F_OPFOR",
-		"a3_characters_f_beta",
-		"A3_Characters_F_INDEP",
-		"A3_Air_F_Beta_Heli_Transport_01",
-		"A3_Characters_F_Civil",
-		"A3_Characters_F_BLUFOR",
-		"A3_Air_F_Heli_Light_02",
-		"A3_Air_F_Beta_Heli_Attack_01",
-		"A3_Air_F_Beta_Heli_Attack_02",
-		"A3_Armor_F_AMV",
-		"A3_Armor_F_Marid",
-		"A3_Air_F_Beta_Heli_Transport_02",
-		"A3_Boat_F_Boat_Transport_01",
-		"a3_characters_f_gamma",
-		"A3_Armor_F_Slammer",
-		"A3_Armor_F_APC_Wheeled_03",
-		"A3_Armor_F_T100K",
-		"a3_map_altis",
-		"a3_armor_f_epb_mbt_03",
-		"a3_air_f_epb_heli_light_03",
-		"A3_Soft_F_TruckHeavy",
-		"A3_Soft_F_MRAP_03",
-		"A3_Soft_F_MRAP_01",
-		"A3_Soft_F_HEMTT",
-		"A3_Soft_F_MRAP_02",
-		"A3_Soft_F_EPC_Truck_03",
-		"A3_Soft_F_Gamma_Offroad",
-		"A3_Soft_F_Truck",
-		"a3_uav_f_characters_f_gamma"
 	};
 	addOnsAuto[]=
 	{
-		"A3_Characters_F_BLUFOR",
-		"a3_characters_f_beta",
-		"A3_Characters_F_Gamma",
-		"a3_uav_f_characters_f_gamma",
-		"A3_Characters_F_OPFOR",
-		"A3_Characters_F_INDEP",
-		"A3_Characters_F_Civil",
-		"A3_Air_F_Beta_Heli_Transport_01",
-		"A3_Air_F_Heli_Light_02",
-		"A3_Air_F_Beta_Heli_Transport_02",
-		"A3_Armor_F_AMV",
-		"A3_Air_F_Beta_Heli_Attack_01",
-		"A3_Armor_F_Marid",
-		"A3_Air_F_Beta_Heli_Attack_02",
-		"A3_Armor_F_Slammer",
-		"A3_Armor_F_APC_Wheeled_03",
-		"A3_Armor_F_T100K",
-		"A3_Armor_F_EPB_MBT_03",
-		"A3_Air_F_EPB_Heli_Light_03",
-		"A3_Soft_F_TruckHeavy",
-		"A3_Soft_F_MRAP_03",
-		"A3_Soft_F_MRAP_01",
-		"A3_Soft_F_HEMTT",
-		"A3_Soft_F_MRAP_02",
-		"A3_Soft_F_EPC_Truck_03",
-		"A3_Soft_F_Gamma_Offroad",
-		"A3_Soft_F_Truck",
-		"a3_map_altis"
 	};
 	randomSeed=11823142;
 	class Intel
@@ -7365,7 +7308,7 @@ class Mission
 	};
 	class Markers
 	{
-		items=2;
+		items=3;
 		class Item0
 		{
 			position[]={7963.1147,39.532951,11157.285};
@@ -7379,6 +7322,12 @@ class Mission
 			name="f_extract";
 			text="extract";
 			type="mil_end";
+		};
+		class Item2
+		{
+			position[]={8260.4785,32.611774,11167.253};
+			name="m_intro_uav";
+			type="Empty";
 		};
 	};
 };
