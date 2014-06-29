@@ -3,7 +3,7 @@ MISSION README
 
 Mission: [ Insert name of mission ]
 Version: [ Insert version here, format: N-N-N ]
-Developer(s): [ Insert your name(s) here. ]
+Developer(s): Black Sh33p - [ Your name(s) here ]
 Description: [ Insert short mission description here ]
 
 
@@ -18,7 +18,6 @@ README CONTENTS
 05. INSTALLATION
 06. REQUIRED ADDONS
 07. NOTES
-08. CHANGE HISTORY
 
 
 
@@ -34,7 +33,7 @@ Version | Date | Notes
 02. COPYRIGHT STATEMENT
 =======================
 
-This mission is (c)[ CCYY ] [ Insert your name(s) here. ]. All rights reserved.
+This mission is (c)[ CCYY ] Black Sh33p. All rights reserved.
 
 
 
@@ -43,7 +42,7 @@ This mission is (c)[ CCYY ] [ Insert your name(s) here. ]. All rights reserved.
 
 This mission (hereafter 'Software') contains files to be used in the PC simulator ArmA 3. To use the Software you must agree to the following conditions of use:
 
-1. [ Insert your name(s) here. ] (hereafter 'The Author(s)') grant to you a personal, non-exclusive license to use the Software.
+1. Black Sh33p (hereafter 'The Author(s)') grant to you a personal, non-exclusive license to use the Software.
 
 2. The commercial exploitation of the Software without written permission from The Author(s) is expressly prohibited.
 
@@ -81,14 +80,3 @@ To play this mission the following addons are required:
 =========
 
 [ Insert your notes here. ]
-
-
-
-08. CHANGE HISTORY
-==================
-
-Version | Date
-
-[ Insert version, format: N-N-N ] | [ Insert date, format: DD MM CCYY ]
-[ Insert change #1 here. ]
-[ Insert change #2 here. ]
