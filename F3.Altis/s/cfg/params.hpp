@@ -8,15 +8,39 @@ class Params
 		default = 0;
 		code = "";
 	};
-	class f_param_uav
+	class f_spacer_1
+	{
+		title = "::	Volumetric Fog:";
+		values[] = {0};
+		texts[] = {""};
+		default = 0;
+		code = "";
+	};
+	class f_param_vfog
+	{
+		title = "        Custom Fog";
+		values[] = {0, 1};
+		texts[] = {"Off", "On"};
+		default = 0;
+		code = "f_param_vfog = %1;";
+	};
+	class f_spacer_2
 	{
 		title = "::	UAV Introduction:";
+		values[] = {0};
+		texts[] = {""};
+		default = 0;
+		code = "";
+	};
+	class f_param_uav
+	{
+		title = "        UAV";
 		values[] = {0, 1};
 		texts[] = {"Off", "On"};
 		default = 0;
 		code = "f_param_uav = %1;";
 	};
-	class f_spacer_1
+	class f_spacer_3
 	{
 		title = "::	Headless Client:";
 		values[] = {0};
@@ -26,7 +50,7 @@ class Params
 	};
 	class f_param_hc
 	{
-		title = "Headless Client";
+		title = "        HC";
 		values[] = {0, 1};
 		texts[] = {"Off", "On"};
 		default = 0;
