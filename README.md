@@ -39,6 +39,8 @@ spawning and logic. Without this amazing tool, our missions would be very plain 
 #### Repository Structure
 * F3.Altis - the standard mission template, based of the F3 framework
 	but modified by Black Sh33p, for Black Sh33p
+  * s - directory containing Black Sh33p additions and modifications to F3.
+	Changes are isolated from F3 as much as possible for forward compatibility
 * missions - contains all mission source files
 * mission-assets - various templates and commonly used items that can
 	be merged into missions easily for additional functionality
