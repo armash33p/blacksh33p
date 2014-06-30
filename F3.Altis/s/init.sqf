@@ -40,3 +40,7 @@ waitUntil { !isNil "f_param_hc" };
 //IgiLoad
 waitUntil { !isNil "f_param_igi" };
 [] execVM "s\IgiLoad\IgiLoadInit.sqf";
+
+//Veiw Distance
+waitUntil { !isNil "f_param_vd" };
+[] execVM "s\viewdistance.sqf";
