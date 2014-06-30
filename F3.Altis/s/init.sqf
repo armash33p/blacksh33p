@@ -36,3 +36,7 @@ waitUntil { !isNil "f_param_uav" };
 // Headless Client
 waitUntil { !isNil "f_param_hc" };
 [] execVM "hc\init_hc.sqf";
+
+//IgiLoad
+waitUntil { !isNil "f_param_igi" };
+[] execVM "s\IgiLoad\IgiLoadInit.sqf";
