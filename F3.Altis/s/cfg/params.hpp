@@ -81,8 +81,8 @@ class f_spacer_5
 class f_param_vd
 {
 	title = "        Distance";
-	values[] = {0, 1, 2, 3, 4, 5, 6};
+	values[] = {3000, 4000, 5000, 6000, 7000, 8000,};
 	texts[] = {"3000", "4000", "5000", "6000", "7000", "8000", };
-	default = 2;
+	default = 5000;
 	code = "f_param_vd = %1;";
 };

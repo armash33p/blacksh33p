@@ -38,8 +38,9 @@ waitUntil { !isNil "f_param_hc" };
 [] execVM "hc\init_hc.sqf";
 
 //IgiLoad
-waitUntil { !isNil "f_param_igi" };
-[] execVM "s\IgiLoad\IgiLoadInit.sqf";
+if (f_param_igi == 1) then {
+  [] execVM "s\IgiLoad\IgiLoadInit.sqf";
+};
 
 //Veiw Distance
 waitUntil { !isNil "f_param_vd" };
