@@ -1,10 +1,10 @@
-Black Sh33p
+Black Sh33p Mission Template
 ==========
 
 ### No Bullshit; Just Fun.
 
 #### Overview
-This repository contains missions, scripts, and assets utilized by
+This repository contains mission scripts and assets utilized by
 the [Black Sh33p](http://blacksh33p.net/aboutus/) ARMA3 community.
 
 #### Licensing
