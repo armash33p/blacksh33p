@@ -1,5 +1,3 @@
-#include "s\uav.sqf"
-
 // F3 - Briefing
 // Credits: Please see the F3 online manual (http://www.ferstaberinde.com/f3/en/)
 // ====================================================================================
