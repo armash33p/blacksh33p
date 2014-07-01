@@ -6,7 +6,6 @@ execVM "DAC\DAC_Config_Creator.sqf";
 
 // Fog - See docs/setFogReadme.txt
 waitUntil { !isNil "f_param_vfog" };
-
 // Check whether Volumetric Fog parameter is enabled
 if (f_param_vfog == 1) then {
 	// Set the starting density for the fog (between 0 and 1)
@@ -26,7 +25,7 @@ if (f_param_vfog == 1) then {
 	// For example [[.65, .40], .010, 55, 60] execVM "Fog.sqf"; would start
 	// with a fog density of .65 with a decay of .010 and an altitude of 55
 	// meters and gradually decrease to a fog density of .40 over 60 minutes.
-	[[_startDensity, _endDensity], _decay, _altitude, _transition] execVM "s\fog\Fog.sqf";
+	[[_startDensity, _endDensity], _decay, _altitude, _transition] execVM "s\fog.sqf";
 };
 
 // UAV Intro
@@ -37,15 +36,15 @@ waitUntil { !isNil "f_param_uav" };
 waitUntil { !isNil "f_param_hc" };
 [] execVM "hc\init_hc.sqf";
 
-//IgiLoad
+//IGI Cargo Loading script
+waitUntil { !isNil "f_param_igi" };
 if (f_param_igi == 1) then {
   [] execVM "s\IgiLoad\IgiLoadInit.sqf";
 };
 
-//Veiw Distance
+// View Distance
 waitUntil { !isNil "f_param_vd" };
 [] execVM "s\viewdistance.sqf";
-
 //DAC Debug
 waitUntil { !isNil "f_param_dacdebug" };
 [] execVM "s\dacdebug.sqf";
