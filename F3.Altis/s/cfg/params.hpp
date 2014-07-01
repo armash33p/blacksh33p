@@ -62,7 +62,7 @@ class f_spacer_4
 	default = 0;
 	code = "";
 };
-class f_param_hc
+class f_param_igi
 {
 	title = "        Igi Load";
 	values[] = {0, 1};
