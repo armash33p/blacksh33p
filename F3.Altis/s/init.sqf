@@ -45,3 +45,7 @@ if (f_param_igi == 1) then {
 //Veiw Distance
 waitUntil { !isNil "f_param_vd" };
 [] execVM "s\viewdistance.sqf";
+
+//DAC Debug
+waitUntil { !isNil "f_param_dacdebug" };
+[] execVM "s\dacdebug.sqf";
