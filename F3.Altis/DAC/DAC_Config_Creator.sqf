@@ -15,7 +15,7 @@ scalar = "any";DAC_Init_Camps = 0;
 
 waituntil{time > 0.3};
 
-if(isServer || ((f_param_hc == 1) && (str player == "HC"))) then {
+if(isServer || (str player == "HC")) then {
 	if(local player) then {
 		DAC_Code = 1
 	} else {
