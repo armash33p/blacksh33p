@@ -14,7 +14,7 @@ if (!isDedicated && (isNull player)) then
 // SET GLOBAL VARIABLES
 
 // MODIFYABLE
-f_size_Nametags = 0.04; // The size the names are displayed in
+f_size_Nametags = 0.02; // The size the names are displayed in
 f_height_Nametags = 0; // The height of the name tags for infantry (0 = hovering over unit, -1 = about belt height)
 f_vheight_Nametags = 0; // The height of the name tags for units in vehicles (0 = hovering over vehicle)
 
