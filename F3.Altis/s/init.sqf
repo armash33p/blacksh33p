@@ -4,6 +4,10 @@ DAC_Zone = compile preprocessFile "DAC\Scripts\DAC_Init_Zone.sqf";
 DAC_Objects = compile preprocessFile "DAC\Scripts\DAC_Create_Objects.sqf";
 execVM "DAC\DAC_Config_Creator.sqf";
 
+// Headless Client
+waitUntil { !isNil "f_param_hc" };
+[] execVM "hc\init_hc.sqf";
+
 // Fog - See docs/setFogReadme.txt
 waitUntil { !isNil "f_param_vfog" };
 // Check whether Volumetric Fog parameter is enabled
@@ -28,14 +32,6 @@ if (f_param_vfog == 1) then {
 	[[_startDensity, _endDensity], _decay, _altitude, _transition] execVM "s\fog.sqf";
 };
 
-// UAV Intro
-waitUntil { !isNil "f_param_uav" };
-[] execVM "s\uav.sqf";
-
-// Headless Client
-waitUntil { !isNil "f_param_hc" };
-[] execVM "hc\init_hc.sqf";
-
 //IGI Cargo Loading script
 waitUntil { !isNil "f_param_igi" };
 if (f_param_igi == 1) then {
@@ -45,6 +41,11 @@ if (f_param_igi == 1) then {
 // View Distance
 waitUntil { !isNil "f_param_vd" };
 [] execVM "s\viewdistance.sqf";
+
 //DAC Debug
 waitUntil { !isNil "f_param_dacdebug" };
 [] execVM "s\dacdebug.sqf";
+
+// UAV Intro
+waitUntil { !isNil "f_param_uav" };
+[] execVM "s\uav.sqf";

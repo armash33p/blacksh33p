@@ -1,3 +1,6 @@
+// Include Sh33p init file
+#include "s\init.sqf"
+
 // ====================================================================================
 
 // F3 - Disable Saving and Auto Saving
@@ -195,6 +198,3 @@ f_var_JIP_GearMenu = true;			// Can JIP/respawned players select their own gear?
 [] execVM "f\radios\radio_init.sqf";
 
 // ====================================================================================
-
-// Include Sh33p init file
-#include "s\init.sqf"
