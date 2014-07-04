@@ -1,4 +1,4 @@
-// ============================================================================================
+// ============================================================================================
 
 // F3 - Mission Header
 // Credits: Please see the F3 online manual (http://www.ferstaberinde.com/f3/en/)
@@ -56,7 +56,7 @@ class cfgNotifications
 		difficulty[] = {}; // Required difficulty settings. All listed difficulties has to be enabled
 	};
 
-	
+};	
 
 // ============================================================================================
 
