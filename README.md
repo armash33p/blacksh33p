@@ -1,4 +1,4 @@
-Black Sh33p Lightweight
+Black Sh33p Mission Template
 ==========
 
 ### No Bullshit; Just Fun.
