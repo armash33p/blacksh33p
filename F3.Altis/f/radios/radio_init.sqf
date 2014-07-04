@@ -15,30 +15,9 @@ if(f_var_radios != 0) then {
 
   switch (f_var_radios) do {
     
-    // ACRE
-    case 1: {
-
-      // Retrieve ACRE relevant settings
-      #include "acre_settings.sqf"
-
-      // If script is being run on the server
-      if(isDedicated) then {
-
-        [] execVM "f\radios\acre_serverInit.sqf";
-
-      } else {
-
-        [] execVM "f\radios\acre_clientInit.sqf";
-
-        // If locally hosting, run both client and server scripts
-        if((!isDedicated) && (isServer)) then {[] execVM "f\radios\acre_serverInit.sqf";};
-
-      };
-
-    };
 
     // TFR
-    case 2: {
+    case 1: {
       
       // Retrieve TFR relevant setting
       #include "tfr_settings.sqf"
