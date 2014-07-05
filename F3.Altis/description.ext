@@ -1,4 +1,4 @@
-// ============================================================================================
+// ============================================================================================
 
 // F3 - Mission Header
 // Credits: Please see the F3 online manual (http://www.ferstaberinde.com/f3/en/)
@@ -91,9 +91,9 @@ class Params
     class f_param_radios
     {
             title = "Radio System";
-            values[] = {0,1,2};
-            texts[] = {"Off","ACRE", "TFR"};
-            default = 2;
+            values[] = {0,1};
+            texts[] = {"Off","TFR"};
+            default = 1;
             code = "f_var_radios = %1";
     };
 

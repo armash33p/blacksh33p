@@ -60,7 +60,7 @@ f_script_setLocalVars = [0] execVM "f\common\f_setLocalVars.sqf";
 // F3 - Dynamic View Distance
 // Credits: Please see the F3 online manual (http://www.ferstaberinde.com/f3/en/)
 
-f_var_viewDistance_default = 1500;
+f_var_viewDistance_default = 2000;
 f_var_viewDistance_tank = 2000;
 f_var_viewDistance_car = 2000;
 f_var_viewDistance_rotaryWing = 2500;

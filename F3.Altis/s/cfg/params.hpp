@@ -78,14 +78,6 @@ class f_spacer_5
 	default = 0;
 	code = "";
 };
-class f_param_vd
-{
-	title = "        Distance";
-	values[] = {1000, 2000, 3000, 4000, 5000, 6000, 7000, 8000,};
-	texts[] = {"1000", "2000", "3000", "4000", "5000", "6000", "7000", "8000", };
-	default = 3000;
-	code = "f_param_vd = %1;";
-};
 class f_spacer_6
 {
 	title = "::	DAC Debug:";
