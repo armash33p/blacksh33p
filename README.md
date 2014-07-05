@@ -40,8 +40,11 @@ spawning and logic. Without this amazing tool, our missions would be very plain 
 * *F3.Altis* - the standard mission template, based of the F3 framework
 	but modified by Black Sh33p, for Black Sh33p
   * *s* - directory containing Black Sh33p additions and modifications to F3.
+	This folder should be used only for additions that are utilized across
+	all (or nearly all) missions. More seldom utilized assets, scripts,
+	etc, should be placed in the *mission-assets* folder.
+	
 	Changes are isolated from F3 as much as possible for forward compatibility
-* *missions* - contains all mission source files
 * *mission-assets* - various templates and commonly used items that can
 	be merged into missions easily for additional functionality
 * *README.md* - you're reading it!
