@@ -6097,7 +6097,7 @@ class Mission
 				items=1;
 				class Item0
 				{
-					position[]={8235.6768,14.191791,10899.272};
+					position[]={8347.1191,26.139204,11149.323};
 					class args
 					{
 						items=7;
@@ -6408,6 +6408,7 @@ class Mission
 		};
 		class Item3
 		{
+			presenceCondition="alive UnitNATO_TH2_P";
 			position[]={8347.4229,14.987488,10820.176};
 			id=400;
 			side="EMPTY";
@@ -6418,6 +6419,7 @@ class Mission
 		};
 		class Item4
 		{
+			presenceCondition="alive UnitNATO_TH3_P";
 			position[]={8371.7256,17.341846,10843.16};
 			id=401;
 			side="EMPTY";
@@ -6428,6 +6430,7 @@ class Mission
 		};
 		class Item5
 		{
+			presenceCondition="alive UnitNATO_IFV1_C";
 			position[]={8337.7998,13.896212,10796.719};
 			id=402;
 			side="EMPTY";
@@ -6437,6 +6440,7 @@ class Mission
 		};
 		class Item6
 		{
+			presenceCondition="alive UnitNATO_IFV2_C";
 			position[]={8350.2568,13.956756,10793.102};
 			id=403;
 			side="EMPTY";
@@ -6446,6 +6450,7 @@ class Mission
 		};
 		class Item7
 		{
+			presenceCondition="alive UnitNATO_IFV3_C";
 			position[]={8365.917,14.224092,10796.604};
 			id=404;
 			side="EMPTY";
@@ -6455,6 +6460,7 @@ class Mission
 		};
 		class Item8
 		{
+			presenceCondition="alive UnitNATO_IFV4_C";
 			position[]={8378.374,14.608989,10792.992};
 			id=405;
 			side="EMPTY";
@@ -6464,6 +6470,7 @@ class Mission
 		};
 		class Item9
 		{
+			presenceCondition="alive UnitNATO_AH1_P";
 			position[]={8325.1318,14.742844,10842.613};
 			id=406;
 			side="EMPTY";
@@ -6474,6 +6481,7 @@ class Mission
 		};
 		class Item10
 		{
+			presenceCondition="alive UnitAAF_TH2_P";
 			position[]={7873.542,28.783966,10784.589};
 			id=407;
 			side="EMPTY";
@@ -6484,6 +6492,7 @@ class Mission
 		};
 		class Item11
 		{
+			presenceCondition="alive UnitAAF_TH3_P";
 			position[]={7901.4404,33.35371,10784.968};
 			id=408;
 			side="EMPTY";
@@ -6494,6 +6503,7 @@ class Mission
 		};
 		class Item12
 		{
+			presenceCondition="alive UnitCSAT_TH2_P";
 			position[]={8687.4531,23.279438,10777.798};
 			id=409;
 			side="EMPTY";
@@ -6503,6 +6513,7 @@ class Mission
 		};
 		class Item13
 		{
+			presenceCondition="alive UnitCSAT_TH3_P";
 			position[]={8714.4102,26.787775,10803.856};
 			id=410;
 			side="EMPTY";
@@ -6512,6 +6523,7 @@ class Mission
 		};
 		class Item14
 		{
+			presenceCondition="alive UnitCSAT_IFV1_C";
 			position[]={8681.2109,21.041481,10741.946};
 			id=411;
 			side="EMPTY";
@@ -6522,6 +6534,7 @@ class Mission
 		};
 		class Item15
 		{
+			presenceCondition="alive UnitCSAT_IFV2_C";
 			position[]={8692.6211,21.56354,10734.991};
 			id=412;
 			side="EMPTY";
@@ -6532,6 +6545,7 @@ class Mission
 		};
 		class Item16
 		{
+			presenceCondition="alive UnitCSAT_IFV3_C";
 			position[]={8707.8691,22.19141,10741.61};
 			id=413;
 			side="EMPTY";
@@ -6542,6 +6556,7 @@ class Mission
 		};
 		class Item17
 		{
+			presenceCondition="alive UnitCSAT_IFV4_C";
 			position[]={8718.7227,22.306126,10734.528};
 			id=414;
 			side="EMPTY";
@@ -6552,6 +6567,7 @@ class Mission
 		};
 		class Item18
 		{
+			presenceCondition="alive UnitCSAT_AH1_P";
 			position[]={8655.8086,27.089224,10804.755};
 			id=415;
 			side="EMPTY";
@@ -6561,6 +6577,7 @@ class Mission
 		};
 		class Item19
 		{
+			presenceCondition="alive UnitNATO_TNK1_C";
 			position[]={8400.5674,18.798428,10844.655};
 			id=416;
 			side="EMPTY";
@@ -6570,6 +6587,7 @@ class Mission
 		};
 		class Item20
 		{
+			presenceCondition="alive UnitAAF_IFV1_C";
 			position[]={7841.4482,28.368357,10752.397};
 			id=417;
 			side="EMPTY";
@@ -6580,6 +6598,7 @@ class Mission
 		};
 		class Item21
 		{
+			presenceCondition="alive UnitAAF_IFV2_C";
 			position[]={7854.3721,30.51387,10749.718};
 			id=418;
 			side="EMPTY";
@@ -6590,6 +6609,7 @@ class Mission
 		};
 		class Item22
 		{
+			presenceCondition="alive UnitAAF_IFV3_C";
 			position[]={7869.3232,33.581276,10751.933};
 			id=419;
 			side="EMPTY";
@@ -6600,6 +6620,7 @@ class Mission
 		};
 		class Item23
 		{
+			presenceCondition="alive UnitAAF_IFV4_C";
 			position[]={7882.4678,34.967014,10749.776};
 			id=420;
 			side="EMPTY";
@@ -6610,6 +6631,7 @@ class Mission
 		};
 		class Item24
 		{
+			presenceCondition="alive UnitCSAT_TNK1_C";
 			position[]={8745.5654,26.652096,10801.852};
 			id=421;
 			side="EMPTY";
@@ -6619,6 +6641,7 @@ class Mission
 		};
 		class Item25
 		{
+			presenceCondition="alive UnitAAF_TNK1_C";
 			position[]={7930.1406,34.782097,10785.872};
 			id=422;
 			side="EMPTY";
@@ -6629,6 +6652,7 @@ class Mission
 		};
 		class Item26
 		{
+			presenceCondition="alive UnitAAF_AH1_P";
 			position[]={7822.127,19.437134,10800.2};
 			id=423;
 			side="EMPTY";
@@ -6639,6 +6663,7 @@ class Mission
 		};
 		class Item27
 		{
+			presenceCondition="alive UnitAAF_ASL_SL";
 			position[]={7849.3701,14.655709,10877.092};
 			id=424;
 			side="EMPTY";
@@ -6648,6 +6673,7 @@ class Mission
 		};
 		class Item28
 		{
+			presenceCondition="alive UnitAAF_BSL_SL";
 			position[]={7875.707,16.834877,10877.273};
 			id=425;
 			side="EMPTY";
@@ -6657,6 +6683,7 @@ class Mission
 		};
 		class Item29
 		{
+			presenceCondition="alive UnitAAF_CSL_SL";
 			position[]={7900.0586,22.720913,10878.174};
 			id=426;
 			side="EMPTY";
@@ -6684,6 +6711,7 @@ class Mission
 		};
 		class Item32
 		{
+			presenceCondition="alive UnitNATO_ASL_SL";
 			position[]={8349.7725,19.359806,10937.266};
 			id=429;
 			side="EMPTY";
@@ -6693,6 +6721,7 @@ class Mission
 		};
 		class Item33
 		{
+			presenceCondition="alive UnitNATO_BSL_SL";
 			position[]={8373.3926,20.52594,10935.889};
 			id=430;
 			side="EMPTY";
@@ -6702,6 +6731,7 @@ class Mission
 		};
 		class Item34
 		{
+			presenceCondition="alive UnitNATO_CSL_SL";
 			position[]={8397.2412,22.475889,10937.034};
 			id=431;
 			side="EMPTY";
@@ -6720,6 +6750,7 @@ class Mission
 		};
 		class Item36
 		{
+			presenceCondition="alive UnitCSAT_ASL_SL";
 			position[]={8683.2695,35.098316,10891.206};
 			id=433;
 			side="EMPTY";
@@ -6729,6 +6760,7 @@ class Mission
 		};
 		class Item37
 		{
+			presenceCondition="alive UnitCSAT_BSL_SL";
 			position[]={8706.2012,34.922024,10890.978};
 			id=434;
 			side="EMPTY";
@@ -6738,6 +6770,7 @@ class Mission
 		};
 		class Item38
 		{
+			presenceCondition="alive UnitCSAT_CSL_SL";
 			position[]={8732.1152,34.644089,10891.435};
 			id=435;
 			side="EMPTY";
@@ -6756,6 +6789,7 @@ class Mission
 		};
 		class Item40
 		{
+			presenceCondition="alive UnitFIA_ASL_SL";
 			position[]={8386.7637,13.301596,10629.811};
 			id=437;
 			side="EMPTY";
@@ -6765,6 +6799,7 @@ class Mission
 		};
 		class Item41
 		{
+			presenceCondition="alive UnitFIA_BSL_SL";
 			position[]={8413.7246,13.259539,10630.097};
 			id=438;
 			side="EMPTY";
@@ -6774,6 +6809,7 @@ class Mission
 		};
 		class Item42
 		{
+			presenceCondition="alive UnitFIA_CSL_SL";
 			position[]={8439.6904,14.039751,10626.405};
 			id=439;
 			side="EMPTY";
@@ -6783,6 +6819,7 @@ class Mission
 		};
 		class Item43
 		{
+			presenceCondition="alive UnitFIA_ASL_SL";
 			position[]={8395.917,13.401127,10628.841};
 			id=440;
 			side="EMPTY";
@@ -6792,6 +6829,7 @@ class Mission
 		};
 		class Item44
 		{
+			presenceCondition="alive UnitFIA_BSL_SL";
 			position[]={8419.2012,13.321789,10628.649};
 			id=441;
 			side="EMPTY";
@@ -6801,6 +6839,7 @@ class Mission
 		};
 		class Item45
 		{
+			presenceCondition="alive UnitFIA_CSL_SL";
 			position[]={8444.8838,14.029076,10626.805};
 			id=442;
 			side="EMPTY";
@@ -6837,6 +6876,7 @@ class Mission
 		};
 		class Item49
 		{
+			presenceCondition="alive UnitAAF_AH2_P";
 			position[]={7833.9932,21.397814,10800.118};
 			id=446;
 			side="EMPTY";
@@ -6847,6 +6887,7 @@ class Mission
 		};
 		class Item50
 		{
+			presenceCondition="alive UnitNATO_AH2_P";
 			position[]={8308.624,14.968328,10843.7};
 			id=447;
 			side="EMPTY";
@@ -6857,6 +6898,7 @@ class Mission
 		};
 		class Item51
 		{
+			presenceCondition="alive UnitCSAT_AH2_P";
 			position[]={8637.3271,27.634636,10804.583};
 			id=448;
 			side="EMPTY";
@@ -6866,6 +6908,7 @@ class Mission
 		};
 		class Item52
 		{
+			presenceCondition="alive UnitCSAT_TNK2_C";
 			position[]={8767.9355,25.160006,10802.043};
 			id=449;
 			side="EMPTY";
@@ -6875,6 +6918,7 @@ class Mission
 		};
 		class Item53
 		{
+			presenceCondition="alive UnitCSAT_TNK3_C";
 			position[]={8745.6611,24.395912,10777.193};
 			id=450;
 			side="EMPTY";
@@ -6884,6 +6928,7 @@ class Mission
 		};
 		class Item54
 		{
+			presenceCondition="alive UnitCSAT_TNK4_C";
 			position[]={8768.6943,24.672506,10776.628};
 			id=451;
 			side="EMPTY";
@@ -6893,6 +6938,7 @@ class Mission
 		};
 		class Item55
 		{
+			presenceCondition="alive UnitNATO_TNK2_C";
 			position[]={8427.6045,20.519682,10845.608};
 			id=452;
 			side="EMPTY";
@@ -6902,6 +6948,7 @@ class Mission
 		};
 		class Item56
 		{
+			presenceCondition="alive UnitNATO_TNK3_C";
 			position[]={8399.6172,16.762144,10821.82};
 			id=453;
 			side="EMPTY";
@@ -6911,6 +6958,7 @@ class Mission
 		};
 		class Item57
 		{
+			presenceCondition="alive UnitNATO_TNK4_C";
 			position[]={8426.6533,19.243502,10823.042};
 			id=454;
 			side="EMPTY";
@@ -6920,6 +6968,7 @@ class Mission
 		};
 		class Item58
 		{
+			presenceCondition="alive UnitAAF_TNK2_C";
 			position[]={7952.6904,37.052063,10785.658};
 			id=455;
 			side="EMPTY";
@@ -6930,6 +6979,7 @@ class Mission
 		};
 		class Item59
 		{
+			presenceCondition="alive UnitAAF_TNK3_C";
 			position[]={7928.6436,37.706581,10762.242};
 			id=456;
 			side="EMPTY";
@@ -6940,6 +6990,7 @@ class Mission
 		};
 		class Item60
 		{
+			presenceCondition="alive UnitAAF_TNK4_C";
 			position[]={7951.5146,39.923634,10761.493};
 			id=457;
 			side="EMPTY";
@@ -6950,6 +7001,7 @@ class Mission
 		};
 		class Item61
 		{
+			presenceCondition="alive UnitAAF_FW1_P";
 			position[]={7821.6216,20.894417,10781.154};
 			id=458;
 			side="EMPTY";
@@ -6960,6 +7012,7 @@ class Mission
 		};
 		class Item62
 		{
+			presenceCondition="alive UnitAAF_FW2_P";
 			position[]={7833.9272,23.839533,10780.653};
 			id=459;
 			side="EMPTY";
@@ -6970,6 +7023,7 @@ class Mission
 		};
 		class Item63
 		{
+			presenceCondition="alive UnitNATO_FW1_P";
 			position[]={8308.624,13.64877,10819.454};
 			id=460;
 			side="EMPTY";
@@ -6980,6 +7034,7 @@ class Mission
 		};
 		class Item64
 		{
+			presenceCondition="alive UnitNATO_FW2_P";
 			position[]={8327.7607,13.603271,10819.35};
 			id=461;
 			side="EMPTY";
@@ -6990,6 +7045,7 @@ class Mission
 		};
 		class Item65
 		{
+			presenceCondition="alive UnitCSAT_FW2_P";
 			position[]={8655.2207,23.82242,10777.32};
 			id=462;
 			side="EMPTY";
@@ -7000,6 +7056,7 @@ class Mission
 		};
 		class Item66
 		{
+			presenceCondition="alive UnitCSAT_FW1_P";
 			position[]={8635.4775,25.020281,10776.851};
 			id=463;
 			side="EMPTY";
@@ -7010,6 +7067,7 @@ class Mission
 		};
 		class Item67
 		{
+			presenceCondition="alive UnitNATO_AH4_P";
 			position[]={8325.3809,16.016796,10862.644};
 			id=464;
 			side="EMPTY";
@@ -7020,6 +7078,7 @@ class Mission
 		};
 		class Item68
 		{
+			presenceCondition="alive UnitNATO_AH3_P";
 			position[]={8308.873,15.371634,10863.73};
 			id=465;
 			side="EMPTY";
@@ -7030,6 +7089,7 @@ class Mission
 		};
 		class Item69
 		{
+			presenceCondition="alive UnitNATO_TH4_P";
 			position[]={8368.79,16.253786,10820.133};
 			id=466;
 			side="EMPTY";
@@ -7040,6 +7100,7 @@ class Mission
 		};
 		class Item70
 		{
+			presenceCondition="alive UnitNATO_TH5_P";
 			position[]={8379.124,15.674552,10819.562};
 			id=467;
 			side="EMPTY";
