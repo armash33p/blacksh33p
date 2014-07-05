@@ -7112,42 +7112,14 @@ class Mission
 	};
 	class Markers
 	{
-		items=6;
+		items=2;
 		class Item0
-		{
-			position[]={7963.1147,39.532951,11157.285};
-			name="f_insert";
-			text="insert";
-			type="mil_start";
-		};
-		class Item1
-		{
-			position[]={7997.9824,20.094175,10478.077};
-			name="f_extract";
-			text="extract";
-			type="mil_end";
-		};
-		class Item2
 		{
 			position[]={8260.4785,32.611774,11167.253};
 			name="m_intro_uav";
 			type="Empty";
 		};
-		class Item3
-		{
-			position[]={7963.1147,39.532951,11157.285};
-			name="f_insert_1";
-			text="insert";
-			type="mil_start";
-		};
-		class Item4
-		{
-			position[]={7962.9883,28.057743,11088.944};
-			name="f_extract_1";
-			text="extract";
-			type="mil_end";
-		};
-		class Item5
+		class Item1
 		{
 			position[]={8260.4785,32.611774,11167.253};
 			name="m_intro_uav_1";
