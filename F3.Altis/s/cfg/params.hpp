@@ -70,14 +70,6 @@ class f_param_igi
 	default = 0;
 	code = "f_param_igi = %1;";
 };
-class f_spacer_5
-{
-	title = "::	View Distance:";
-	values[] = {0};
-	texts[] = {""};
-	default = 0;
-	code = "";
-};
 class f_spacer_6
 {
 	title = "::	DAC Debug:";
