@@ -1,3 +1,6 @@
+// Include Sh33p description file
+#include "s\description.ext"
+
 // ============================================================================================
 
 // F3 - Mission Header
