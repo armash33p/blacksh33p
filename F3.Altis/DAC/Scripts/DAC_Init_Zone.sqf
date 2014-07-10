@@ -8,8 +8,8 @@
 //    silola@freenet.de     //
 //////////////////////////////
 
-if ((f_param_hc == 0) && !isServer) exitWith {};
-if ((f_param_hc == 1) && (str player != "HC")) exitWith {};
+if ((s_param_hc == 0) && !isServer) exitWith {};
+if ((s_param_hc == 1) && (str player != "HC")) exitWith {};
 
 waituntil{format["%1",!isNil 'DAC_Basic_Value'] == "true"};
 sleep (random 1);

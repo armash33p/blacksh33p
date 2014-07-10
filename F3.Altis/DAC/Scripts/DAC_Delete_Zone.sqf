@@ -12,8 +12,8 @@ private ["_zones","_a","_c","_m","_i","_z","_scr","_delArray"];
 
 _zones = _this;_c = 0;_a = "";_i = 0;_z = objNull;_scr = "";_delArray = [];
 
-if ((f_param_hc == 0) && !isServer) exitWith {};
-if ((f_param_hc == 1) && (str player != "HC")) exitWith {};
+if ((s_param_hc == 0) && !isServer) exitWith {};
+if ((s_param_hc == 1) && (str player != "HC")) exitWith {};
 
 if(DAC_NewZone == 0) then
 {

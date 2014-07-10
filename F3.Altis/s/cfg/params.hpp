@@ -1,4 +1,4 @@
-class f_spacer_0
+class s_spacer_0
 {
 	title = "--	Black Sh33p --";
 	values[] = {0};
@@ -6,7 +6,7 @@ class f_spacer_0
 	default = 0;
 	code = "";
 };
-class f_spacer_1
+class s_spacer_1
 {
 	title = "::	Volumetric Fog:";
 	values[] = {0};
@@ -14,15 +14,15 @@ class f_spacer_1
 	default = 0;
 	code = "";
 };
-class f_param_vfog
+class s_param_vfog
 {
 	title = "        Custom Fog";
 	values[] = {0, 1};
 	texts[] = {"Off", "On"};
 	default = 0;
-	code = "f_param_vfog = %1;";
+	code = "s_param_vfog = %1;";
 };
-class f_spacer_2
+class s_spacer_2
 {
 	title = "::	UAV Introduction:";
 	values[] = {0};
@@ -30,15 +30,15 @@ class f_spacer_2
 	default = 0;
 	code = "";
 };
-class f_param_uav
+class s_param_uav
 {
 	title = "        UAV";
 	values[] = {0, 1};
 	texts[] = {"Off", "On"};
 	default = 0;
-	code = "f_param_uav = %1;";
+	code = "s_param_uav = %1;";
 };
-class f_spacer_3
+class s_spacer_3
 {
 	title = "::	Headless Client:";
 	values[] = {0};
@@ -46,11 +46,11 @@ class f_spacer_3
 	default = 0;
 	code = "";
 };
-class f_param_hc
+class s_param_hc
 {
 	title = "        HC";
 	values[] = {0, 1};
 	texts[] = {"Off", "On"};
 	default = 0;
-	code = "f_param_hc = %1; publicVariable ""f_param_hc"";";
+	code = "s_param_hc = %1; publicVariable ""s_param_hc"";";
 };

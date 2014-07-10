@@ -20,8 +20,8 @@ if(_name in DAC_CheckZones) then
 }
 else
 {
-	if ((f_param_hc == 0) && !isServer) exitWith {};
-	if ((f_param_hc == 1) && (str player != "HC")) exitWith {};
+	if ((s_param_hc == 0) && !isServer) exitWith {};
+	if ((s_param_hc == 1) && (str player != "HC")) exitWith {};
 
 	if(DAC_NewZone == 0) then
 	{

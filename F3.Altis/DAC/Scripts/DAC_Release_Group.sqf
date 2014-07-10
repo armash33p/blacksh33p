@@ -17,8 +17,8 @@ private [
 _group = _this select 0;_wparray = [];_wptemp = [];_iw = 0;_id = 0;_dt = 4;_run = 0;_go = true;_zone = "";_entry = [];
 _newwp = [0,0];_marker = [];_gtyp = 0;_zones = [];_count = 0;_typArray = [];_wpPool = "";_wpstr = "";_c = 0;_a = "";
 
-if ((f_param_hc == 0) && !isServer) exitWith {};
-if ((f_param_hc == 1) && (str player != "HC")) exitWith {};
+if ((s_param_hc == 0) && !isServer) exitWith {};
+if ((s_param_hc == 1) && (str player != "HC")) exitWith {};
 
 DAC_Release_Action = DAC_Release_Action + 1;
 

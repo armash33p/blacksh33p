@@ -3,7 +3,7 @@
 case n:
 {
 	_Events_Unit_S =	[
-							["if (f_param_ai_nvg == 0) then { {_x unassignItem (hmd _x); _x removeItem (hmd _x); _x addPrimaryWeaponItem ""acc_flashlight""; _x enableGunLights ""forceOn""} foreach units _group; };"],
+							["if (s_param_ai_nvg == 0) then { {_x unassignItem (hmd _x); _x removeItem (hmd _x); _x addPrimaryWeaponItem ""acc_flashlight""; _x enableGunLights ""forceOn""} foreach units _group; };"],
 							[],
 							[],
 							[],

@@ -25,8 +25,8 @@ private [
 			_pc = 0;_px = 0;_py = 0;_xd = 0;_yd = 0;_rx = 0;_ry = 0;_rsin = 0;_rcos = 0;_objArray = _this select 4;_arrayName = "";_rdmVec = 1;_markerVal = [];
 			_vec1 = 0;_vec2 = 0;_vec3 = 0;
 
-if ((f_param_hc == 1) && (str player != "HC")) exitWith {};
-if ((f_param_hc == 0) && !isServer) exitWith {};
+if ((s_param_hc == 1) && (str player != "HC")) exitWith {};
+if ((s_param_hc == 0) && !isServer) exitWith {};
 
 if(count _objArray > 1) then
 {

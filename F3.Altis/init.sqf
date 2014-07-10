@@ -1,14 +1,9 @@
-// Include Sh33p init file
-#include "s\init.sqf"
-
 // ====================================================================================
 
 // F3 - Disable Saving and Auto Saving
 // Credits: Please see the F3 online manual (http://www.ferstaberinde.com/f3/en/)
 
 enableSaving [false, false];
-
-// f_param_hc = 0;
 
 // ====================================================================================
 
@@ -103,3 +98,6 @@ f_showVehicle_Nametags = false;	// Show vehicle player is in
 [] execVM "f\radios\radio_init.sqf";
 
 // ====================================================================================
+
+// Include Sh33p init file
+#include "s\init.sqf"

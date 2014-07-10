@@ -23,8 +23,8 @@ private [
 			_run = 1;_go = 0;_DAC_WP_Nr = 0;_zone = _this select 1;_pos = _this select 2;_size = _this select 3;_wc = _this select 4;
 			_wn = 0;_dist = 100000;_log = objNull;_checkwp = [];
 
-if ((f_param_hc == 0) && !isServer) exitWith {};
-if ((f_param_hc == 1) && (str player != "HC")) exitWith {};
+if ((s_param_hc == 0) && !isServer) exitWith {};
+if ((s_param_hc == 1) && (str player != "HC")) exitWith {};
 
 while {_run > 0} do
 {

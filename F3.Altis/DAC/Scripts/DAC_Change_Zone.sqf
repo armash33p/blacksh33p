@@ -15,8 +15,8 @@ private ["_zone","_pos","_size","_uc","_bc","_wc","_c","_a","_mS","_mP","_mU","_
 _zone = _this select 0;_pos = _this select 1;_size = _this select 2;_uc = _this select 3;_action = true;_dd = 0;
 _bc = _this select 4;_wc = _this select 5;_c = 0;_mS = [];_mP = [];_mU = [];_a = [];_zoneLoc = objNull;
 
-if ((f_param_hc == 0) && !isServer) exitWith {};
-if ((f_param_hc == 1) && (str player != "HC")) exitWith {};
+if ((s_param_hc == 0) && !isServer) exitWith {};
+if ((s_param_hc == 1) && (str player != "HC")) exitWith {};
 
 if(DAC_NewZone == 0) then
 {

@@ -21,8 +21,8 @@ private [
 			_a = [];_decr = DAC_Sector_Values select 3;_m = "";_marker1 = "";_marker2 = "";_E = [];_F = [];_yVal = 0;_hTime = time;
 			_sideE = DAC_Sector_Values select 7;_sideF = DAC_Sector_Values select 8;
 
-if ((f_param_hc == 0) && !isServer) exitWith {};
-if ((f_param_hc == 1) && (str player != "HC")) exitWith {};
+if ((s_param_hc == 0) && !isServer) exitWith {};
+if ((s_param_hc == 1) && (str player != "HC")) exitWith {};
 
 if((({((isPlayer _x) && (local _x))} count DAC_Players) == 0)) then
 {

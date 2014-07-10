@@ -8,8 +8,8 @@
 //    silola@freenet.de     //
 //////////////////////////////
 
-if ((f_param_hc == 0) && !isServer) exitWith {};
-if ((f_param_hc == 1) && (str player != "HC")) exitWith {};
+if ((s_param_hc == 0) && !isServer) exitWith {};
+if ((s_param_hc == 1) && (str player != "HC")) exitWith {};
 
 private [
 			"_thisZone","_KiZone","_ZonePos","_mxvalue","_myvalue","_s","_start","_isserv",

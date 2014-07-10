@@ -21,8 +21,8 @@ _action = true;_h = 0;_GroupWP = [];_GroupPos = [];_zData = [];_i = 0;_wpData = 
 _typArray = ["S","V","T"];_wpPool = format["DAC_WP_Pool_%1",(_typArray select (_gtyp - 1))];_wpstr = "";
 _delval0 = 0;_delval1 = 0;_delval2 = 0;
 
-if ((f_param_hc == 0) && !isServer) exitWith {};
-if ((f_param_hc == 1) && (str player != "HC")) exitWith {};
+if ((s_param_hc == 0) && !isServer) exitWith {};
+if ((s_param_hc == 1) && (str player != "HC")) exitWith {};
 
 _delval0 = ((DAC_Delete_Value select 1) select 0);
 _delval1 = ((DAC_Delete_Value select 1) select 1);

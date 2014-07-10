@@ -2,7 +2,7 @@
 // To create the orbiting UAV introduction video, uncomment this code
 // and create a marker named "m_intro_uav" in the mission
 // Adjust altitude, radius, viewing angle, and movement direction as needed
-if (f_param_uav == 1) then {
+if (s_param_uav == 1) then {
 	[
 		getMarkerPos "m_intro_uav",
 	   "Black Sh33p", // SITREP text

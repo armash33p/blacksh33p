@@ -5,13 +5,13 @@ DAC_Objects = compile preprocessFile "DAC\Scripts\DAC_Create_Objects.sqf";
 execVM "DAC\DAC_Config_Creator.sqf";
 
 // Headless Client
-waitUntil { !isNil "f_param_hc" };
+waitUntil { !isNil "s_param_hc" };
 [] execVM "hc\init_hc.sqf";
 
 // Fog - See docs/setFogReadme.txt
-waitUntil { !isNil "f_param_vfog" };
+waitUntil { !isNil "s_param_vfog" };
 // Check whether Volumetric Fog parameter is enabled
-if (f_param_vfog == 1) then {
+if (s_param_vfog == 1) then {
 	// Set the starting density for the fog (between 0 and 1)
 	_startDensity = 0.0;
 	// Set the ending density for the fog (between 0 and 1)
@@ -33,5 +33,5 @@ if (f_param_vfog == 1) then {
 };
 
 // UAV Intro
-waitUntil { !isNil "f_param_uav" };
+waitUntil { !isNil "s_param_uav" };
 [] execVM "s\uav.sqf";
