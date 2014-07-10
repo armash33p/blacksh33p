@@ -32,12 +32,6 @@ if (f_param_vfog == 1) then {
 	[[_startDensity, _endDensity], _decay, _altitude, _transition] execVM "s\fog.sqf";
 };
 
-//IGI Cargo Loading script
-waitUntil { !isNil "f_param_igi" };
-if (f_param_igi == 1) then {
-  [] execVM "s\IgiLoad\IgiLoadInit.sqf";
-};
-
 // UAV Intro
 waitUntil { !isNil "f_param_uav" };
 [] execVM "s\uav.sqf";
