@@ -70,19 +70,3 @@ class f_param_igi
 	default = 0;
 	code = "f_param_igi = %1;";
 };
-class f_spacer_6
-{
-	title = "::	DAC Debug:";
-	values[] = {0};
-	texts[] = {""};
-	default = 0;
-	code = "";
-};
-class f_param_dacdebug
-{
-	title = "        Debug";
-	values[] = {0, 1};
-	texts[] = {"Off", "ON", };
-	default = 0;
-	code = "f_param_dacdebug = %1;";
-};

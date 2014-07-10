@@ -38,14 +38,6 @@ if (f_param_igi == 1) then {
   [] execVM "s\IgiLoad\IgiLoadInit.sqf";
 };
 
-// View Distance
-waitUntil { !isNil "f_param_vd" };
-[] execVM "s\viewdistance.sqf";
-
-//DAC Debug
-waitUntil { !isNil "f_param_dacdebug" };
-[] execVM "s\dacdebug.sqf";
-
 // UAV Intro
 waitUntil { !isNil "f_param_uav" };
 [] execVM "s\uav.sqf";
