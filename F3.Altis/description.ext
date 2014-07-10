@@ -38,6 +38,8 @@ respawnOnStart = 0;
 
 // ============================================================================================
 
+// Include Sh33p description file
+#include "s\description.ext"
 
 // F3 - Start of Notifications block.
 
@@ -80,8 +82,6 @@ class Params
             default = 0;
             code = "f_var_debugMode = %1";
     };
-
-
 
 // ============================================================================================
 
@@ -259,8 +259,3 @@ class CfgFunctions
 
 	};
 };
-
-// ============================================================================================
-
-// Include Sh33p description file
-#include "s\description.ext"

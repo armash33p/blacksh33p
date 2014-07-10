@@ -16,6 +16,8 @@ if (!isDedicated && (isNull player)) then
     waitUntil {sleep 0.1; !isNull player};
 };
 
+waitUntil { !isNil "f_var_debugMode"; };
+
 // ====================================================================================
 
 // DECLARE VARIABLES AND FUNCTIONS
