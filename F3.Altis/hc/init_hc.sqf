@@ -1,5 +1,5 @@
 // Read mission param for HC presence
-if (f_param_hc == 0) then {
+if (s_param_hc == 0) then {
 	
 	// Spawn units on server if no HC
 	if (isDedicated) then {
