@@ -1,3 +1,6 @@
+#include "bw\gui_common.hpp"
+#include "bw\gui_spectator.hpp"
+
 // ============================================================================================
 
 // F3 - Mission Header
@@ -32,9 +35,10 @@ enableDebugConsole = 1;
 // F3 - Respawn Settings
 // Credits: Please see the F3 online manual (http://www.ferstaberinde.com/f3/en/)
 
-respawn = 1;
+respawn = "BIRD";
 respawndelay = 3;
 respawnOnStart = 0;
+respawnTemplates[] = {"PabstSpectator"};
 
 // ============================================================================================
 
@@ -202,6 +206,19 @@ class CfgDebriefing
 		// pictureColor[] = {0.0,0.3,0.6,1};
 	};
 
+};
+
+// ============================================================================================
+
+// Pabst Respawn Template
+// Credits: Pabst [Bourbon Warfare] (http://www.bourbonwarfare.com/)
+
+class CfgRespawnTemplates
+{
+	class PabstSpectator
+	{
+		onPlayerRespawn = "bw\pabst_spectator.sqf";
+	};
 };
 
 // ============================================================================================

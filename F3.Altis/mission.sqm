@@ -5885,7 +5885,7 @@ class Mission
 				items=1;
 				class Item0
 				{
-					position[]={8347.1191,26.139204,11149.323};
+					position[]={7262.4082,0,10769.758};
 					class args
 					{
 						items=7;
@@ -6169,7 +6169,7 @@ class Mission
 				items=1;
 				class Item0
 				{
-					position[]={7446.2676,16.054007,11420.089};
+					position[]={7266.019,0,10561.246};
 					id=381;
 					side="LOGIC";
 					vehicle="Logic";
@@ -6950,17 +6950,11 @@ class Mission
 	};
 	class Markers
 	{
-		items=2;
+		items=1;
 		class Item0
 		{
-			position[]={8260.4785,32.611774,11167.253};
+			position[]={8360.2588,25.370754,11173.687};
 			name="m_intro_uav";
-			type="Empty";
-		};
-		class Item1
-		{
-			position[]={8260.4785,32.611774,11167.253};
-			name="m_intro_uav_1";
 			type="Empty";
 		};
 	};
