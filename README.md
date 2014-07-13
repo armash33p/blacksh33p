@@ -36,6 +36,8 @@ magic ways of SQF along the way.
 We also heavily utilize [DAC](http://forums.bistudio.com/showthread.php?176926-DAC-V3-1-(Dynamic-AI-Creator)-released&p=2677923&viewfull=1#post2677923) from Silola to manage our AI
 spawning and logic. Without this amazing tool, our missions would be very plain indeed.
 
+Major thanks to [Bourbon Warfare](http://www.bourbonwarfare.com/) for some killer joint operations, and especially to Pabst for his Spectator script!
+
 #### Repository Structure
 * *F3.Altis* - the standard mission template, based of the F3 framework
 	but modified by Black Sh33p, for Black Sh33p
