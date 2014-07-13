@@ -1,7 +1,0 @@
-// Disable chat channels
-
-disableChannels[]={0,2,3,4,5};
-
-// Show the time on mission load 1=visible 0=hidden
-
-onLoadMissionTime = 1;
