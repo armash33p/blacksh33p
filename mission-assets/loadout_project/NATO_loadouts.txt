@@ -1,0 +1,83 @@
+All nato loadouts go here! Feel free to help work on this with me and compile a library of loadouts. Take into consideration the loadout weight as well for the role. 
+
+The basics:   "*" if completed
+Co*
+DC
+Medic
+Engineer
+SL*
+FTL
+AR
+AAR
+Rifleman
+R-AT
+
+
+
+// LOADOUT: NATO CO
+
+		this forceAddUniform "U_B_CombatUniform_mcam";
+		for "_i" from 1 to 2 do {this addItemToUniform "30Rnd_65x39_caseless_mag";};
+		this addVest "V_PlateCarrier1_rgr";
+		for "_i" from 1 to 3 do {this addItemToVest "30Rnd_65x39_caseless_mag_Tracer";};
+		this addItemToVest "1Rnd_HE_Grenade_shell";
+		for "_i" from 1 to 2 do {this addItemToVest "1Rnd_Smoke_Grenade_shell";};
+		for "_i" from 1 to 2 do {this addItemToVest "1Rnd_SmokeRed_Grenade_shell";};
+		for "_i" from 1 to 2 do {this addItemToVest "1Rnd_SmokeGreen_Grenade_shell";};
+		this addItemToVest "3Rnd_HE_Grenade_shell";
+		for "_i" from 1 to 2 do {this addItemToVest "9Rnd_45ACP_Mag";};
+		this addBackpack "B_AssaultPack_mcamo";
+		for "_i" from 1 to 2 do {this addItemToBackpack "FirstAidKit";};
+		for "_i" from 1 to 2 do {this addItemToBackpack "30Rnd_65x39_caseless_mag";};
+		for "_i" from 1 to 3 do {this addItemToBackpack "1Rnd_HE_Grenade_shell";};
+		for "_i" from 1 to 2 do {this addItemToBackpack "1Rnd_SmokeRed_Grenade_shell";};
+		for "_i" from 1 to 2 do {this addItemToBackpack "1Rnd_Smoke_Grenade_shell";};
+		for "_i" from 1 to 2 do {this addItemToBackpack "1Rnd_SmokeGreen_Grenade_shell";};
+		for "_i" from 1 to 2 do {this addItemToBackpack "SmokeShell";};
+		for "_i" from 1 to 2 do {this addItemToBackpack "SmokeShellRed";};
+		for "_i" from 1 to 2 do {this addItemToBackpack "SmokeShellGreen";};
+		for "_i" from 1 to 2 do {this addItemToBackpack "HandGrenade";};
+		this addHeadgear "H_HelmetB_plain_mcamo";
+		this addWeapon "arifle_MX_GL_F";
+		this addPrimaryWeaponItem "optic_Arco";
+		this addWeapon "hgun_ACPC2_F";
+		this linkItem "ItemMap";
+		this linkItem "ItemCompass";
+		this linkItem "ItemWatch";
+		this linkItem "ItemGPS";
+		this linkItem "NVGoggles";
+		this linkItem "Rangefinder";
+
+// LOADOUT: NATO SQUAD LEAD
+
+		this forceAddUniform "U_B_CombatUniform_mcam";
+		for "_i" from 1 to 2 do {this addItemToUniform "30Rnd_65x39_caseless_mag";};
+		this addVest "V_PlateCarrier1_rgr";
+		for "_i" from 1 to 3 do {this addItemToVest "30Rnd_65x39_caseless_mag_Tracer";};
+		this addItemToVest "1Rnd_HE_Grenade_shell";
+		for "_i" from 1 to 2 do {this addItemToVest "1Rnd_Smoke_Grenade_shell";};
+		for "_i" from 1 to 2 do {this addItemToVest "1Rnd_SmokeRed_Grenade_shell";};
+		for "_i" from 1 to 2 do {this addItemToVest "1Rnd_SmokeGreen_Grenade_shell";};
+		this addItemToVest "3Rnd_HE_Grenade_shell";
+		for "_i" from 1 to 2 do {this addItemToVest "9Rnd_45ACP_Mag";};
+		this addBackpack "B_AssaultPack_mcamo";
+		for "_i" from 1 to 2 do {this addItemToBackpack "FirstAidKit";};
+		for "_i" from 1 to 2 do {this addItemToBackpack "30Rnd_65x39_caseless_mag";};
+		for "_i" from 1 to 3 do {this addItemToBackpack "1Rnd_HE_Grenade_shell";};
+		for "_i" from 1 to 2 do {this addItemToBackpack "1Rnd_SmokeRed_Grenade_shell";};
+		for "_i" from 1 to 2 do {this addItemToBackpack "1Rnd_Smoke_Grenade_shell";};
+		for "_i" from 1 to 2 do {this addItemToBackpack "1Rnd_SmokeGreen_Grenade_shell";};
+		for "_i" from 1 to 2 do {this addItemToBackpack "SmokeShell";};
+		for "_i" from 1 to 2 do {this addItemToBackpack "SmokeShellRed";};
+		for "_i" from 1 to 2 do {this addItemToBackpack "SmokeShellGreen";};
+		for "_i" from 1 to 2 do {this addItemToBackpack "HandGrenade";};
+		this addHeadgear "H_HelmetB_plain_mcamo";
+		this addWeapon "arifle_MX_GL_F";
+		this addPrimaryWeaponItem "optic_Arco";
+		this addWeapon "hgun_ACPC2_F";
+		this linkItem "ItemMap";
+		this linkItem "ItemCompass";
+		this linkItem "ItemWatch";
+		this linkItem "ItemGPS";
+		this linkItem "NVGoggles";
+		this linkItem "Rangefinder";
