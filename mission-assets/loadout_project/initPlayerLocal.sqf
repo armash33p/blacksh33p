@@ -7,7 +7,11 @@ removeAllAssignedItems player;
 removeUniform player;
 removeVest player;
 removeHeadgear player;
-removeGoggles player;
+
+
+player linkItem "ItemMap";
+player linkItem "ItemCompass";
+player linkItem "ItemWatch";
 
 
 _unitType = player getVariable "s_unitType";
@@ -45,9 +49,6 @@ switch (_unitType) do {
 		player addWeapon "arifle_MX_GL_F";
 		player addPrimaryWeaponItem "optic_Arco";
 		player addWeapon "hgun_ACPC2_F";
-		player linkItem "ItemMap";
-		player linkItem "ItemCompass";
-		player linkItem "ItemWatch";
 		player linkItem "tf_anprc152_3";
 		player linkItem "ItemGPS";
 		player linkItem "NVGoggles";
@@ -83,9 +84,6 @@ switch (_unitType) do {
 		player addWeapon "arifle_MX_GL_F";
 		player addPrimaryWeaponItem "optic_Arco";
 		player addWeapon "hgun_ACPC2_F";
-		player linkItem "ItemMap";
-		player linkItem "ItemCompass";
-		player linkItem "ItemWatch";
 		player linkItem "tf_anprc152_3";
 		player linkItem "ItemGPS";
 		player linkItem "NVGoggles";
@@ -120,9 +118,6 @@ switch (_unitType) do {
 		player addHeadgear "H_HelmetB_plain_mcamo";
 		player addWeapon "arifle_MX_GL_F";
 		player addPrimaryWeaponItem "optic_Arco";
-		player linkItem "ItemMap";
-		player linkItem "ItemCompass";
-		player linkItem "ItemWatch";
 		player linkItem "tf_anprc152_3";
 		player linkItem "ItemGPS";
 		player linkItem "NVGoggles";
@@ -153,9 +148,6 @@ switch (_unitType) do {
 		player addHeadgear "H_HelmetB_plain_mcamo";
 		player addWeapon "arifle_MX_F";
 		player addPrimaryWeaponItem "optic_Holosight";
-		player linkItem "ItemMap";
-		player linkItem "ItemCompass";
-		player linkItem "ItemWatch";
 		player linkItem "tf_anprc152_3";
 		player linkItem "NVGoggles";
 	};
@@ -184,9 +176,6 @@ switch (_unitType) do {
 		player addHeadgear "H_HelmetB_plain_mcamo";
 		player addWeapon "LMG_Mk200_F";
 		player addPrimaryWeaponItem "optic_Holosight";
-		player linkItem "ItemMap";
-		player linkItem "ItemCompass";
-		player linkItem "ItemWatch";
 		player linkItem "ItemGPS";
 		player linkItem "NVGoggles";
 		player linkItem "tf_anprc152_3";
@@ -218,9 +207,6 @@ switch (_unitType) do {
 		player addHeadgear "H_HelmetB_plain_mcamo";
 		player addWeapon "arifle_MX_F";
 		player addPrimaryWeaponItem "optic_Aco";
-		player linkItem "ItemMap";
-		player linkItem "ItemCompass";
-		player linkItem "ItemWatch";
 		player linkItem "tf_anprc152_3";
 		player linkItem "NVGoggles";
 	};
@@ -252,9 +238,6 @@ switch (_unitType) do {
 		player addWeapon "arifle_MX_F";
 		player addPrimaryWeaponItem "optic_Aco";
 		player addWeapon "launch_NLAW_F";
-		player linkItem "ItemMap";
-		player linkItem "ItemCompass";
-		player linkItem "ItemWatch";
 		player linkItem "tf_anprc152_3";
 		player linkItem "NVGoggles";
 	};
@@ -286,9 +269,6 @@ switch (_unitType) do {
 		player addHeadgear "H_HelmetB_plain_mcamo";
 		player addWeapon "arifle_MX_F";
 		player addPrimaryWeaponItem "optic_Aco";
-		player linkItem "ItemMap";
-		player linkItem "ItemCompass";
-		player linkItem "ItemWatch";
 		player linkItem "tf_anprc152_3";
 		player linkItem "NVGoggles";
 	};
@@ -318,9 +298,6 @@ switch (_unitType) do {
 		player addHeadgear "H_HelmetB_plain_mcamo";
 		player addWeapon "arifle_MX_F";
 		player addPrimaryWeaponItem "optic_Aco";
-		player linkItem "ItemMap";
-		player linkItem "ItemCompass";
-		player linkItem "ItemWatch";
 		player linkItem "tf_anprc152_3";
 		player linkItem "NVGoggles";
 	};
@@ -338,9 +315,6 @@ switch (_unitType) do {
 		player addHeadgear "H_HelmetCrew_B";
 		player addWeapon "arifle_MX_Black_F";
 		player addPrimaryWeaponItem "optic_Holosight_smg";
-		player linkItem "ItemMap";
-		player linkItem "ItemCompass";
-		player linkItem "ItemWatch";
 		player linkItem "tf_anprc152_5";
 		player linkItem "ItemGPS";
 		player linkItem "NVGoggles";
@@ -359,9 +333,6 @@ switch (_unitType) do {
 		player addHeadgear "H_PilotHelmetHeli_O";
 		player addWeapon "arifle_MX_Black_F";
 		player addPrimaryWeaponItem "optic_Holosight_smg";
-		player linkItem "ItemMap";
-		player linkItem "ItemCompass";
-		player linkItem "ItemWatch";
 		player linkItem "tf_anprc152_5";
 		player linkItem "ItemGPS";
 		player linkItem "NVGoggles";
@@ -386,9 +357,6 @@ switch (_unitType) do {
 		player addPrimaryWeaponItem "optic_Nightstalker";
 		player addWeapon "hgun_ACPC2_F";
 		player addHandgunItem "muzzle_snds_acp";
-		player linkItem "ItemMap";
-		player linkItem "ItemCompass";
-		player linkItem "ItemWatch";
 		player linkItem "tf_anprc152_7";
 		player linkItem "NVGoggles";
 	};
@@ -414,9 +382,6 @@ switch (_unitType) do {
 		player addPrimaryWeaponItem "optic_SOS";
 		player addWeapon "hgun_ACPC2_F";
 		player addHandgunItem "muzzle_snds_acp";
-		player linkItem "ItemMap";
-		player linkItem "ItemCompass";
-		player linkItem "ItemWatch";
 		player linkItem "tf_anprc152_6";
 		player linkItem "NVGoggles";
 		player linkItem "Rangefinder";
