@@ -1,0 +1,45 @@
+// Replace the _setSkill value in DAC/configs/DAC_Config_Behaviour.sqf
+// with one of the values below for your zone's behavior to modify
+// the AI skill appropriately
+
+// Easy - untrained, civilians, insurgents, training, etc
+_setSkill   = [
+  [0.1,0.15], // Aiming Accuracy [min, max]
+  [0.4,0.8], // Aiming Shake [min, max]
+  [0.5,0.8], // Aiming Speed [min, max]
+  [0.2,0.6], // Endurance [min, max]
+  [0.3,0.6], // Spot Distance [min, max]
+  [0.8,1.0], // Spot Time [min, max]
+  [0.6,1.0], // Courage [min, max]
+  [0.2,0.8], // Reload Speed [min, max]
+  [0.7,1.0], // Commanding [min, max]
+  [0.2,0.8] // General Skill [min, max]
+];
+
+// Normal - standard trained factions
+_setSkill   = [
+  [0.15,0.2], // Aiming Accuracy [min, max]
+  [0.4,0.8], // Aiming Shake [min, max]
+  [0.6,1.0], // Aiming Speed [min, max]
+  [0.4,0.8], // Endurance [min, max]
+  [0.7,1], // Spot Distance [min, max]
+  [0.8,1.0], // Spot Time [min, max]
+  [0.7,1.0], // Courage [min, max]
+  [0.4,0.8], // Reload Speed [min, max]
+  [0.8,1.0], // Commanding [min, max]
+  [0.4,0.8] // General Skill [min, max]
+];
+
+// Hard - SF and such
+_setSkill   = [
+  [0.2,0.4], // Aiming Accuracy [min, max]
+  [0.4,0.8], // Aiming Shake [min, max]
+  [0.6,1.0], // Aiming Speed [min, max]
+  [0.5,0.8], // Endurance [min, max]
+  [0.8,1], // Spot Distance [min, max]
+  [0.8,1.0], // Spot Time [min, max]
+  [0.7,1.0], // Courage [min, max]
+  [0.6,0.8], // Reload Speed [min, max]
+  [0.9,1.0], // Commanding [min, max]
+  [0.9,1] // General Skill [min, max]
+];
