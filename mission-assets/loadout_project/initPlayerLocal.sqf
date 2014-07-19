@@ -1,6 +1,7 @@
 //SUPERDUPER ALPHA STAGE
 //Loadout testing
 
+// Remove all existing gear
 removeAllWeapons player;
 removeAllItems player;
 removeAllAssignedItems player;
@@ -8,18 +9,20 @@ removeUniform player;
 removeVest player;
 removeHeadgear player;
 
-
+// Add general equipment
 player linkItem "ItemMap";
 player linkItem "ItemCompass";
 player linkItem "ItemWatch";
 
-
-_unitType = player getVariable "s_unitType";
+// Get the type of unit based on the s_unitType variable that
+// should be set in the unit's init line. If the variable
+// is not set, _unitType will be "default" and the default
+// loadout will be assigned
+_unitType = player getVariable ["s_unitType", "default"];
 
 switch (_unitType) do {
 
 //NATO UNITS
-
 
 // LOADOUT: COMMANDER / DEPUTY COMMAND / OFFICER
 	case "o":
@@ -57,7 +60,7 @@ switch (_unitType) do {
 	
 	
 // LOADOUT: SQUAD LEAD
-	case "sl";
+	case "sl":
 	{
 		player forceAddUniform "U_B_CombatUniform_mcam";
 		for "_i" from 1 to 2 do {player addItemToUniform "30Rnd_65x39_caseless_mag";};
@@ -92,7 +95,7 @@ switch (_unitType) do {
 	
 	
 // LOADOUT: FIRETEAM LEADER
-	case "ftl";
+	case "ftl":
 	{
 		player forceAddUniform "U_B_CombatUniform_mcam";
 		for "_i" from 1 to 2 do {player addItemToUniform "30Rnd_65x39_caseless_mag";};
@@ -125,7 +128,7 @@ switch (_unitType) do {
 	};
 	
 // LOADOUT : MEDIC
-	case "medic";
+	case "medic":
 	{
 		player forceAddUniform "U_B_CombatUniform_mcam";
 		player addItemToUniform "FirstAidKit";
@@ -153,7 +156,7 @@ switch (_unitType) do {
 	};
 	
 // LOADOUT : AUTOMATIC RIFLEMAN 
-	case "ar";
+	case "ar":
 	{
 		player forceAddUniform "U_B_CombatUniform_mcam";
 		player addItemToUniform "FirstAidKit";
@@ -181,38 +184,9 @@ switch (_unitType) do {
 		player linkItem "tf_anprc152_3";
 		player linkItem "Binocular";
 	};
-
-//LOADOUT : ASSISTANT AUTOMATIC RIFLEMAN/ RIFLEMAN
-	case "rifleman";
-	{
-		player forceAddUniform "U_B_CombatUniform_mcam_tshirt";
-		player addItemToUniform "FirstAidKit";
-		player addItemToUniform "30Rnd_65x39_caseless_mag";
-		player addItemToUniform "SmokeShell";
-		player addVest "V_PlateCarrier2_rgr";
-		for "_i" from 1 to 2 do {player addItemToVest "FirstAidKit";};
-		for "_i" from 1 to 4 do {player addItemToVest "30Rnd_65x39_caseless_mag";};
-		for "_i" from 1 to 2 do {player addItemToVest "HandGrenade";};
-		for "_i" from 1 to 2 do {player addItemToVest "SmokeShell";};
-		for "_i" from 1 to 2 do {player addItemToVest "SmokeShellRed";};
-		for "_i" from 1 to 2 do {player addItemToVest "SmokeShellGreen";};
-		player addItemToVest "Chemlight_green";
-		player addBackpack "B_Kitbag_mcamo";
-		for "_i" from 1 to 2 do {player addItemToBackpack "FirstAidKit";};
-		for "_i" from 1 to 2 do {player addItemToBackpack "SmokeShell";};
-		for "_i" from 1 to 2 do {player addItemToBackpack "SmokeShellRed";};
-		for "_i" from 1 to 2 do {player addItemToBackpack "SmokeShellGreen";};
-		for "_i" from 1 to 2 do {player addItemToBackpack "200Rnd_65x39_cased_Box";};
-		for "_i" from 1 to 10 do {player addItemToBackpack "30Rnd_65x39_caseless_mag";};
-		player addHeadgear "H_HelmetB_plain_mcamo";
-		player addWeapon "arifle_MX_F";
-		player addPrimaryWeaponItem "optic_Aco";
-		player linkItem "tf_anprc152_3";
-		player linkItem "NVGoggles";
-	};
 	
 //LOADOUT: RIFLEMAN AT
-	case "rat";
+	case "rat":
 	{
 		player forceAddUniform "U_B_CombatUniform_mcam_tshirt";
 		player addItemToUniform "FirstAidKit";
@@ -243,7 +217,7 @@ switch (_unitType) do {
 	};
 	
 //LOADOUT: ENGINEER
-	case "eng";
+	case "eng":
 	{
 		player forceAddUniform "U_B_CombatUniform_mcam_tshirt";
 		player addItemToUniform "FirstAidKit";
@@ -274,7 +248,7 @@ switch (_unitType) do {
 	};
 	
 //LOADOUT: DEMO SPECIALIST
-	case "demo" 
+	case "demo":
 	{
 		player forceAddUniform "U_B_CombatUniform_mcam";
 		player addItemToUniform "Chemlight_green";
@@ -303,7 +277,7 @@ switch (_unitType) do {
 	};
 	
 //LOADOUT: VEHICLE CREW
-	case "vcrew";
+	case "vcrew":
 	{
 		player forceAddUniform "U_B_CombatUniform_mcam_tshirt";
 		for "_i" from 1 to 2 do {player addItemToUniform "Chemlight_green";};
@@ -321,7 +295,7 @@ switch (_unitType) do {
 	};
 	
 //LOADOUT: HELI CREW
-	case "hcrew";
+	case "hcrew":
 	{
 		player forceAddUniform "U_B_HeliPilotCoveralls";
 		for "_i" from 1 to 2 do {player addItemToUniform "Chemlight_green";};
@@ -339,7 +313,7 @@ switch (_unitType) do {
 	};
 	
 //LOADOUT: SNIPER
-	case "sniper"
+	case "sniper":
 	{
 		player forceAddUniform "U_B_GhillieSuit";
 		player addItemToUniform "FirstAidKit";
@@ -361,7 +335,7 @@ switch (_unitType) do {
 		player linkItem "NVGoggles";
 	};
 //LOADOUT:SPOTTER
-	case "spotter"
+	case "spotter":
 	{
 		player forceAddUniform "U_B_GhillieSuit";
 		player addItemToUniform "FirstAidKit";
@@ -388,7 +362,7 @@ switch (_unitType) do {
 	};
 	
 //LOADOUT: UAV SPECIALIST
-	case "uav"
+	case "uav":
 	{
 	};
 	
@@ -400,61 +374,93 @@ switch (_unitType) do {
 
 
 //LOADOUT : SPECIAL FORCES LEAD / JTAC
-	case "sflead"
+	case "sflead":
 	{
 	
 	};
 	
 	
 //LOADOUT : SPECIAL FORCES MARKSMAN
-	case "sfmark"
+	case "sfmark":
 	{
 	
 	};
 	
 	
 //LOADOUT : SPECIAL FORCES MARKSMAN
-	case "sfmark"
+	case "sfmark":
 	{
 	
 	};
 	
 	
 //LOADOUT : SPECIAL FORCES DEMO SPECIALIST
-	case "sfdemo"
+	case "sfdemo":
 	{
 	
 	};
 	
 //LOADOUT : SPECIAL FORCES DEMO SPECIALIST
-	case "sfdemo"
+	case "sfdemo":
 	{
 	
 	};
 	
 	
 //LOADOUT : SPECIAL FORCES AUTOMATIC RIFLEMAN
-	case "sfar"
+	case "sfar":
 	{
 	
 	};
 	
 //LOADOUT : SPECIAL FORCES ENGINEER
-	case "sfeng"
+	case "sfeng":
 	{
 	
 	};
 	
 //LOADOUT : SPECIAL FORCES MEDIC
-	case "sfmedic"
+	case "sfmedic":
 	{
 	
 	};
 	
 	
 //LOADOUT : SPECIAL FORCES RIFLEMAN
-	case "sfrifleman"
+	case "sfrifleman":
 	{
 	
 	};
-}
+	
+//LOADOUT : ASSISTANT AUTOMATIC RIFLEMAN/ RIFLEMAN
+// Also the kit used when no s_unitType is specified
+// This MUST stay as the very last case in the switch statement
+	case "rifleman";
+	default
+	{
+		player forceAddUniform "U_B_CombatUniform_mcam_tshirt";
+		player addItemToUniform "FirstAidKit";
+		player addItemToUniform "30Rnd_65x39_caseless_mag";
+		player addItemToUniform "SmokeShell";
+		player addVest "V_PlateCarrier2_rgr";
+		for "_i" from 1 to 2 do {player addItemToVest "FirstAidKit";};
+		for "_i" from 1 to 4 do {player addItemToVest "30Rnd_65x39_caseless_mag";};
+		for "_i" from 1 to 2 do {player addItemToVest "HandGrenade";};
+		for "_i" from 1 to 2 do {player addItemToVest "SmokeShell";};
+		for "_i" from 1 to 2 do {player addItemToVest "SmokeShellRed";};
+		for "_i" from 1 to 2 do {player addItemToVest "SmokeShellGreen";};
+		player addItemToVest "Chemlight_green";
+		player addBackpack "B_Kitbag_mcamo";
+		for "_i" from 1 to 2 do {player addItemToBackpack "FirstAidKit";};
+		for "_i" from 1 to 2 do {player addItemToBackpack "SmokeShell";};
+		for "_i" from 1 to 2 do {player addItemToBackpack "SmokeShellRed";};
+		for "_i" from 1 to 2 do {player addItemToBackpack "SmokeShellGreen";};
+		for "_i" from 1 to 2 do {player addItemToBackpack "200Rnd_65x39_cased_Box";};
+		for "_i" from 1 to 10 do {player addItemToBackpack "30Rnd_65x39_caseless_mag";};
+		player addHeadgear "H_HelmetB_plain_mcamo";
+		player addWeapon "arifle_MX_F";
+		player addPrimaryWeaponItem "optic_Aco";
+		player linkItem "tf_anprc152_3";
+		player linkItem "NVGoggles";
+	};
+};
