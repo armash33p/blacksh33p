@@ -421,4 +421,75 @@ switch (_unitType) do {
 		player linkItem "NVGoggles";
 		player linkItem "Rangefinder";
 	};
+	
+//LOADOUT: UAV SPECIALIST
+	case "uav"
+	{
+	};
+	
+	
+/////SF LOADOUTS BELOW!
+/////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////
+
+
+
+//LOADOUT : SPECIAL FORCES LEAD / JTAC
+	case "sflead"
+	{
+	
+	};
+	
+	
+//LOADOUT : SPECIAL FORCES MARKSMAN
+	case "sfmark"
+	{
+	
+	};
+	
+	
+//LOADOUT : SPECIAL FORCES MARKSMAN
+	case "sfmark"
+	{
+	
+	};
+	
+	
+//LOADOUT : SPECIAL FORCES DEMO SPECIALIST
+	case "sfdemo"
+	{
+	
+	};
+	
+//LOADOUT : SPECIAL FORCES DEMO SPECIALIST
+	case "sfdemo"
+	{
+	
+	};
+	
+	
+//LOADOUT : SPECIAL FORCES AUTOMATIC RIFLEMAN
+	case "sfar"
+	{
+	
+	};
+	
+//LOADOUT : SPECIAL FORCES ENGINEER
+	case "sfeng"
+	{
+	
+	};
+	
+//LOADOUT : SPECIAL FORCES MEDIC
+	case "sfmedic"
+	{
+	
+	};
+	
+	
+//LOADOUT : SPECIAL FORCES RIFLEMAN
+	case "sfrifleman"
+	{
+	
+	};
 }
