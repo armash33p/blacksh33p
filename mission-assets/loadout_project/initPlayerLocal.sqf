@@ -13,6 +13,7 @@ removeHeadgear player;
 player linkItem "ItemMap";
 player linkItem "ItemCompass";
 player linkItem "ItemWatch";
+player linkItem "NVGoggles";
 
 // Get the type of unit based on the s_unitType variable that
 // should be set in the unit's init line. If the variable
@@ -364,6 +365,24 @@ switch (_unitType) do {
 //LOADOUT: UAV SPECIALIST
 	case "uav":
 	{
+		player forceAddUniform "U_B_CombatUniform_mcam_tshirt";
+		for "_i" from 1 to 2 do {player addItemToUniform "30Rnd_65x39_caseless_mag";};
+		player addItemToUniform "HandGrenade";
+		player addVest "V_PlateCarrier2_rgr";
+		for "_i" from 1 to 2 do {player addItemToVest "FirstAidKit";};
+		for "_i" from 1 to 3 do {player addItemToVest "30Rnd_65x39_caseless_mag";};
+		for "_i" from 1 to 2 do {player addItemToVest "HandGrenade";};
+		for "_i" from 1 to 2 do {player addItemToVest "SmokeShell";};
+		for "_i" from 1 to 2 do {player addItemToVest "SmokeShellRed";};
+		for "_i" from 1 to 2 do {player addItemToVest "SmokeShellGreen";};
+		player addItemToVest "Chemlight_green";
+		for "_i" from 1 to 2 do {player addItemToVest "30Rnd_65x39_caseless_mag_Tracer";};
+		player addBackpack "B_UAV_01_backpack_F";
+		player addHeadgear "H_HelmetB_plain_mcamo";
+		comment "Add weapons";
+		player addWeapon "arifle_MX_F";
+		player addPrimaryWeaponItem "optic_Aco";
+		player linkItem "I_UavTerminal";
 	};
 	
 	
@@ -376,65 +395,212 @@ switch (_unitType) do {
 //LOADOUT : SPECIAL FORCES LEAD / JTAC
 	case "sflead":
 	{
-	
+		player forceAddUniform "U_B_CombatUniform_mcam_vest";
+		player addVest "V_PlateCarrier1_rgr";
+		for "_i" from 1 to 2 do {player addItemToVest "1Rnd_Smoke_Grenade_shell";};
+		for "_i" from 1 to 2 do {player addItemToVest "1Rnd_SmokeRed_Grenade_shell";};
+		for "_i" from 1 to 2 do {player addItemToVest "1Rnd_SmokeGreen_Grenade_shell";};
+		player addItemToVest "3Rnd_HE_Grenade_shell";
+		for "_i" from 1 to 2 do {player addItemToVest "9Rnd_45ACP_Mag";};
+		player addItemToVest "Chemlight_green";
+		for "_i" from 1 to 3 do {player addItemToVest "30Rnd_65x39_caseless_mag";};
+		player addBackpack "tf_rt1523g";
+		for "_i" from 1 to 2 do {player addItemToBackpack "FirstAidKit";};
+		for "_i" from 1 to 4 do {player addItemToBackpack "1Rnd_HE_Grenade_shell";};
+		for "_i" from 1 to 2 do {player addItemToBackpack "1Rnd_SmokeRed_Grenade_shell";};
+		for "_i" from 1 to 2 do {player addItemToBackpack "1Rnd_Smoke_Grenade_shell";};
+		for "_i" from 1 to 2 do {player addItemToBackpack "1Rnd_SmokeGreen_Grenade_shell";};
+		for "_i" from 1 to 2 do {player addItemToBackpack "SmokeShell";};
+		for "_i" from 1 to 2 do {player addItemToBackpack "SmokeShellRed";};
+		for "_i" from 1 to 2 do {player addItemToBackpack "SmokeShellGreen";};
+		for "_i" from 1 to 2 do {player addItemToBackpack "HandGrenade";};
+		player addItemToBackpack "B_IR_Grenade";
+		for "_i" from 1 to 2 do {player addItemToBackpack "Chemlight_green";};
+		for "_i" from 1 to 4 do {player addItemToBackpack "30Rnd_65x39_caseless_mag";};
+		player addHeadgear "H_HelmetSpecB";
+		player addWeapon "arifle_MX_GL_F";
+		player addPrimaryWeaponItem "acc_pointer_IR";
+		player addPrimaryWeaponItem "optic_Arco";
+		player addWeapon "hgun_ACPC2_F";
+		player linkItem "ItemGPS";
+		player linkItem "Rangefinder";	
 	};
 	
 	
 //LOADOUT : SPECIAL FORCES MARKSMAN
 	case "sfmark":
 	{
-	
+		player forceAddUniform "U_B_CombatUniform_mcam_tshirt";
+		player addItemToUniform "FirstAidKit";
+		player addItemToUniform "SmokeShell";
+		player addItemToUniform "20Rnd_762x51_Mag";
+		player addVest "V_PlateCarrier2_rgr";
+		for "_i" from 1 to 2 do {player addItemToVest "FirstAidKit";};
+		for "_i" from 1 to 2 do {player addItemToVest "HandGrenade";};
+		for "_i" from 1 to 2 do {player addItemToVest "SmokeShell";};
+		for "_i" from 1 to 2 do {player addItemToVest "SmokeShellRed";};
+		for "_i" from 1 to 2 do {player addItemToVest "SmokeShellGreen";};
+		player addItemToVest "Chemlight_green";
+		for "_i" from 1 to 3 do {player addItemToVest "20Rnd_762x51_Mag";};
+		player addBackpack "B_Kitbag_cbr";
+		for "_i" from 1 to 2 do {player addItemToBackpack "FirstAidKit";};
+		for "_i" from 1 to 2 do {player addItemToBackpack "SmokeShell";};
+		for "_i" from 1 to 2 do {player addItemToBackpack "SmokeShellRed";};
+		for "_i" from 1 to 2 do {player addItemToBackpack "SmokeShellGreen";};
+		for "_i" from 1 to 4 do {player addItemToBackpack "20Rnd_762x51_Mag";};
+		player addHeadgear "H_HelmetSpecB";
+		player addWeapon "srifle_EBR_F";
+		player addPrimaryWeaponItem "muzzle_snds_B";
+		player addPrimaryWeaponItem "acc_pointer_IR";
+		player addPrimaryWeaponItem "optic_SOS";
+		player linkItem "NVGoggles";
 	};
 	
-	
-//LOADOUT : SPECIAL FORCES MARKSMAN
-	case "sfmark":
-	{
-	
-	};
-	
+
 	
 //LOADOUT : SPECIAL FORCES DEMO SPECIALIST
 	case "sfdemo":
 	{
-	
-	};
-	
-//LOADOUT : SPECIAL FORCES DEMO SPECIALIST
-	case "sfdemo":
-	{
-	
+		player forceAddUniform "U_B_CombatUniform_mcam_tshirt";
+		player addItemToUniform "FirstAidKit";
+		player addItemToUniform "30Rnd_65x39_caseless_mag";
+		player addItemToUniform "SmokeShell";
+		player addVest "V_PlateCarrier2_rgr";
+		for "_i" from 1 to 2 do {player addItemToVest "FirstAidKit";};
+		for "_i" from 1 to 4 do {player addItemToVest "30Rnd_65x39_caseless_mag";};
+		for "_i" from 1 to 2 do {player addItemToVest "HandGrenade";};
+		for "_i" from 1 to 2 do {player addItemToVest "SmokeShell";};
+		for "_i" from 1 to 2 do {player addItemToVest "SmokeShellRed";};
+		for "_i" from 1 to 2 do {player addItemToVest "SmokeShellGreen";};
+		player addItemToVest "Chemlight_green";
+		player addBackpack "B_Kitbag_cbr";
+		for "_i" from 1 to 2 do {player addItemToBackpack "FirstAidKit";};
+		for "_i" from 1 to 2 do {player addItemToBackpack "SmokeShell";};
+		for "_i" from 1 to 2 do {player addItemToBackpack "SmokeShellRed";};
+		for "_i" from 1 to 2 do {player addItemToBackpack "SmokeShellGreen";};
+		for "_i" from 1 to 4 do {player addItemToBackpack "30Rnd_65x39_caseless_mag";};
+		for "_i" from 1 to 3 do {player addItemToBackpack "DemoCharge_Remote_Mag";};
+		player addHeadgear "H_HelmetSpecB";
+		player addWeapon "arifle_MX_F";
+		player addPrimaryWeaponItem "optic_MRCO";
 	};
 	
 	
 //LOADOUT : SPECIAL FORCES AUTOMATIC RIFLEMAN
 	case "sfar":
 	{
-	
+		player forceAddUniform "U_B_CombatUniform_mcam_vest";
+		player addItemToUniform "FirstAidKit";
+		for "_i" from 1 to 2 do {player addItemToUniform "SmokeShellGreen";};
+		player addItemToUniform "Chemlight_green";
+		player addVest "V_PlateCarrier2_rgr";
+		player addItemToVest "FirstAidKit";
+		player addItemToVest "HandGrenade";
+		for "_i" from 1 to 2 do {player addItemToVest "SmokeShell";};
+		for "_i" from 1 to 2 do {player addItemToVest "SmokeShellRed";};
+		for "_i" from 1 to 2 do {player addItemToVest "SmokeShellGreen";};
+		player addItemToVest "Chemlight_green";
+		player addBackpack "B_AssaultPack_mcamo";
+		for "_i" from 1 to 2 do {player addItemToBackpack "FirstAidKit";};
+		for "_i" from 1 to 2 do {player addItemToBackpack "200Rnd_65x39_cased_Box";};
+		player addHeadgear "H_HelmetSpecB";
+		player addWeapon "LMG_Mk200_F";
+		player addPrimaryWeaponItem "muzzle_snds_H_MG";
+		player addPrimaryWeaponItem "acc_pointer_IR";
+		player addPrimaryWeaponItem "optic_Arco";
+		player linkItem "Binocular";
 	};
 	
 //LOADOUT : SPECIAL FORCES ENGINEER
 	case "sfeng":
 	{
-	
+		player forceAddUniform "U_B_CombatUniform_mcam_tshirt";
+		player addItemToUniform "FirstAidKit";
+		player addItemToUniform "30Rnd_65x39_caseless_mag";
+		player addItemToUniform "SmokeShell";
+		player addVest "V_PlateCarrier1_rgr";
+		for "_i" from 1 to 2 do {player addItemToVest "FirstAidKit";};
+		for "_i" from 1 to 4 do {player addItemToVest "30Rnd_65x39_caseless_mag";};
+		for "_i" from 1 to 2 do {player addItemToVest "HandGrenade";};
+		for "_i" from 1 to 2 do {player addItemToVest "SmokeShell";};
+		for "_i" from 1 to 2 do {player addItemToVest "SmokeShellRed";};
+		for "_i" from 1 to 2 do {player addItemToVest "SmokeShellGreen";};
+		player addBackpack "B_Kitbag_cbr";
+		for "_i" from 1 to 2 do {player addItemToBackpack "FirstAidKit";};
+		player addItemToBackpack "MineDetector";
+		player addItemToBackpack "ToolKit";
+		player addItemToBackpack "SmokeShellGreen";
+		for "_i" from 1 to 5 do {player addItemToBackpack "30Rnd_65x39_caseless_mag";};
+		player addItemToBackpack "Chemlight_green";
+		player addItemToBackpack "Chemlight_red";
+		player addItemToBackpack "Chemlight_blue";
+		player addItemToBackpack "B_IR_Grenade";
+		player addItemToBackpack "SmokeShell";
+		player addHeadgear "H_HelmetSpecB";
+		player addWeapon "arifle_MX_F";
+		player addPrimaryWeaponItem "muzzle_snds_H";
+		player addPrimaryWeaponItem "acc_pointer_IR";
+		player addPrimaryWeaponItem "optic_Holosight";
 	};
 	
 //LOADOUT : SPECIAL FORCES MEDIC
 	case "sfmedic":
 	{
-	
+		player forceAddUniform "U_B_CombatUniform_mcam_vest";
+		player addItemToUniform "FirstAidKit";
+		player addItemToUniform "30Rnd_65x39_caseless_mag";
+		player addItemToUniform "SmokeShell";
+		player addVest "V_PlateCarrier2_rgr";
+		for "_i" from 1 to 2 do {player addItemToVest "FirstAidKit";};
+		for "_i" from 1 to 4 do {player addItemToVest "30Rnd_65x39_caseless_mag";};
+		for "_i" from 1 to 2 do {player addItemToVest "HandGrenade";};
+		for "_i" from 1 to 2 do {player addItemToVest "SmokeShell";};
+		for "_i" from 1 to 2 do {player addItemToVest "SmokeShellRed";};
+		for "_i" from 1 to 2 do {player addItemToVest "SmokeShellGreen";};
+		player addItemToVest "Chemlight_green";
+		player addBackpack "B_Kitbag_cbr";
+		for "_i" from 1 to 8 do {player addItemToBackpack "FirstAidKit";};
+		player addItemToBackpack "Medikit";
+		for "_i" from 1 to 2 do {player addItemToBackpack "SmokeShell";};
+		for "_i" from 1 to 2 do {player addItemToBackpack "SmokeShellRed";};
+		for "_i" from 1 to 2 do {player addItemToBackpack "SmokeShellGreen";};
+		for "_i" from 1 to 6 do {player addItemToBackpack "30Rnd_65x39_caseless_mag";};
+		player addHeadgear "H_HelmetSpecB";
+		player addWeapon "arifle_MX_F";
+		player addPrimaryWeaponItem "muzzle_snds_H";
+		player addPrimaryWeaponItem "acc_pointer_IR";
+		player addPrimaryWeaponItem "optic_ACO_grn";	
 	};
 	
 	
 //LOADOUT : SPECIAL FORCES RIFLEMAN
 	case "sfrifleman":
 	{
-	
+		player forceAddUniform "U_B_CombatUniform_mcam_vest";
+		player addVest "V_PlateCarrier2_rgr";
+		for "_i" from 1 to 2 do {player addItemToVest "FirstAidKit";};
+		for "_i" from 1 to 4 do {player addItemToVest "30Rnd_65x39_caseless_mag";};
+		for "_i" from 1 to 2 do {player addItemToVest "HandGrenade";};
+		for "_i" from 1 to 2 do {player addItemToVest "SmokeShell";};
+		for "_i" from 1 to 2 do {player addItemToVest "SmokeShellRed";};
+		for "_i" from 1 to 2 do {player addItemToVest "SmokeShellGreen";};
+		player addItemToVest "Chemlight_green";
+		player addBackpack "B_Kitbag_cbr";
+		for "_i" from 1 to 2 do {player addItemToBackpack "FirstAidKit";};
+		for "_i" from 1 to 2 do {player addItemToBackpack "SmokeShell";};
+		for "_i" from 1 to 2 do {player addItemToBackpack "SmokeShellRed";};
+		for "_i" from 1 to 2 do {player addItemToBackpack "SmokeShellGreen";};
+		for "_i" from 1 to 6 do {player addItemToBackpack "30Rnd_65x39_caseless_mag";};
+		player addHeadgear "H_HelmetSpecB";
+		player addWeapon "arifle_MX_F";
+		player addPrimaryWeaponItem "muzzle_snds_H";
+		player addPrimaryWeaponItem "acc_pointer_IR";
+		player addPrimaryWeaponItem "optic_Arco";
 	};
 	
 //LOADOUT : ASSISTANT AUTOMATIC RIFLEMAN/ RIFLEMAN
 // Also the kit used when no s_unitType is specified
-// This MUST stay as the very last case in the switch statement
+// player MUST stay as the very last case in the switch statement
 	case "rifleman";
 	default
 	{
