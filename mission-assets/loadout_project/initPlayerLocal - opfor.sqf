@@ -353,12 +353,12 @@ switch (_unitType) do {
 		for "_i" from 1 to 2 do {player addItemToVest "SmokeShellGreen";};
 		player addItemToVest "Chemlight_green";
 		for "_i" from 1 to 2 do {player addItemToVest "30Rnd_65x39_caseless_green_mag_Tracer";};
-		player addBackpack "B_UAV_01_backpack_F";
+		player addBackpack "O_UAV_01_backpack_F";
 		player addHeadgear "H_HelmetO_ocamo";
 		comment "Add weapons";
 		player addWeapon "arifle_Katiba_F";
 		player addPrimaryWeaponItem "optic_Aco";
-		player linkItem "I_UavTerminal";
+		player linkItem "O_UavTerminal";
 	};
 	
 	
@@ -379,10 +379,10 @@ switch (_unitType) do {
 		player addItemToVest "3Rnd_HE_Grenade_shell";
 		for "_i" from 1 to 2 do {player addItemToVest "16Rnd_9x21_Mag";};
 		player addItemToVest "Chemlight_green";
-		for "_i" from 1 to 3 do {player addItemToVest "30Rnd_65x39_caseless_green";};
+		for "_i" from 1 to 6 do {player addItemToVest "30Rnd_65x39_caseless_green";};
 		player addBackpack "tf_mr3000";
 		for "_i" from 1 to 2 do {player addItemToBackpack "FirstAidKit";};
-		for "_i" from 1 to 4 do {player addItemToBackpack "1Rnd_HE_Grenade_shell";};
+		for "_i" from 1 to 6 do {player addItemToBackpack "1Rnd_HE_Grenade_shell";};
 		for "_i" from 1 to 2 do {player addItemToBackpack "1Rnd_SmokeRed_Grenade_shell";};
 		for "_i" from 1 to 2 do {player addItemToBackpack "1Rnd_Smoke_Grenade_shell";};
 		for "_i" from 1 to 2 do {player addItemToBackpack "1Rnd_SmokeGreen_Grenade_shell";};
@@ -444,7 +444,7 @@ switch (_unitType) do {
 		player addItemToUniform "SmokeShell";
 		player addVest "V_TacVest_khk";
 		for "_i" from 1 to 2 do {player addItemToVest "FirstAidKit";};
-		for "_i" from 1 to 4 do {player addItemToVest "30Rnd_65x39_caseless_green";};
+		for "_i" from 1 to 5 do {player addItemToVest "30Rnd_65x39_caseless_green";};
 		for "_i" from 1 to 2 do {player addItemToVest "HandGrenade";};
 		for "_i" from 1 to 2 do {player addItemToVest "SmokeShell";};
 		for "_i" from 1 to 2 do {player addItemToVest "SmokeShellRed";};
@@ -480,7 +480,7 @@ switch (_unitType) do {
 		player addItemToVest "Chemlight_green";
 		player addBackpack "B_AssaultPack_ocamo";
 		for "_i" from 1 to 2 do {player addItemToBackpack "FirstAidKit";};
-		for "_i" from 1 to 2 do {player addItemToBackpack "150Rnd_762x51_Box";};
+		for "_i" from 1 to 3 do {player addItemToBackpack "150Rnd_762x51_Box";};
 		player addHeadgear "H_HelmetSpecO_ocamo";
 		player addWeapon "LMG_Zafir_F";
 		player addPrimaryWeaponItem "muzzle_snds_H_MG";
