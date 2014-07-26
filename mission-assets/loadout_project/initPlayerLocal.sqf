@@ -395,6 +395,7 @@ switch (_unitType) do {
 		for "_i" from 1 to 4 do {player addItemToBackpack "30Rnd_65x39_caseless_mag";};
 		player addHeadgear "H_HelmetSpecB";
 		player addWeapon "arifle_MX_GL_F";
+		player addPrimaryWeaponItem "muzzle_snds_H";
 		player addPrimaryWeaponItem "acc_pointer_IR";
 		player addPrimaryWeaponItem "optic_Arco";
 		player addWeapon "hgun_ACPC2_F";
@@ -429,7 +430,6 @@ switch (_unitType) do {
 		player addPrimaryWeaponItem "muzzle_snds_B";
 		player addPrimaryWeaponItem "acc_pointer_IR";
 		player addPrimaryWeaponItem "optic_SOS";
-		player linkItem "NVGoggles";
 	};
 	
 
@@ -458,6 +458,7 @@ switch (_unitType) do {
 		for "_i" from 1 to 3 do {player addItemToBackpack "DemoCharge_Remote_Mag";};
 		player addHeadgear "H_HelmetSpecB";
 		player addWeapon "arifle_MX_F";
+		player addPrimaryWeaponItem "muzzle_snds_H";
 		player addPrimaryWeaponItem "optic_MRCO";
 	};
 	

@@ -53,9 +53,8 @@ switch (_unitType) do {
 		player addWeapon "arifle_Katiba_GL_F";
 		player addPrimaryWeaponItem "optic_Arco";
 		player addWeapon "hgun_Rook40_F";
-		player linkItem "tf_anprc152_3";
+
 		player linkItem "ItemGPS";
-		player linkItem "NVGoggles";
 		player linkItem "Rangefinder";
 	};
 	
@@ -89,7 +88,6 @@ switch (_unitType) do {
 		player addPrimaryWeaponItem "optic_Arco";
 		player addWeapon "hgun_Rook40_F";
 		player linkItem "ItemGPS";
-		player linkItem "NVGoggles";
 		player linkItem "Rangefinder";	
 	};
 	
@@ -149,7 +147,6 @@ switch (_unitType) do {
 		player addHeadgear "H_HelmetO_ocamo";
 		player addWeapon "arifle_Katiba_F";
 		player addPrimaryWeaponItem "optic_Holosight";
-		player linkItem "NVGoggles";
 	};
 	
 // LOADOUT : AUTOMATIC RIFLEMAN 
@@ -232,7 +229,7 @@ switch (_unitType) do {
 		player addItemToBackpack "Chemlight_green";
 		player addItemToBackpack "Chemlight_red";
 		player addItemToBackpack "Chemlight_blue";
-		player addItemToBackpack "B_IR_Grenade";
+		player addItemToBackpack "O_IR_Grenade";
 		player addHeadgear "H_HelmetO_ocamo";
 		player addWeapon "arifle_Katiba_F";
 		player addPrimaryWeaponItem "optic_Aco";
@@ -313,6 +310,7 @@ switch (_unitType) do {
 		player addWeapon "srifle_LRR_F";
 		player addPrimaryWeaponItem "optic_Nightstalker";
 		player addWeapon "hgun_Rook40_F";
+		player addHandgunItem "muzzle_snds_L";
 	};
 //LOADOUT:SPOTTER
 	case "spotter":
@@ -335,6 +333,7 @@ switch (_unitType) do {
 		player addWeapon "srifle_DMR_01_F";
 		player addPrimaryWeaponItem "optic_SOS";
 		player addWeapon "hgun_Rook40_F";
+		player addHandgunItem "muzzle_snds_L";
 		player linkItem "Rangefinder";
 	};
 	
@@ -430,7 +429,6 @@ switch (_unitType) do {
 		player addPrimaryWeaponItem "muzzle_snds_B";
 		player addPrimaryWeaponItem "acc_pointer_IR";
 		player addPrimaryWeaponItem "optic_SOS";
-		player linkItem "NVGoggles";
 	};
 	
 
