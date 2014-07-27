@@ -429,7 +429,6 @@ switch (_unitType) do {
 		player addPrimaryWeaponItem "muzzle_snds_B";
 		player addPrimaryWeaponItem "acc_pointer_IR";
 		player addPrimaryWeaponItem "optic_SOS";
-		player linkItem "NVGoggles";
 	};
 	
 
