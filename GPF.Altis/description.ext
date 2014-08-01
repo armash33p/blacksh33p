@@ -97,7 +97,7 @@ class Params
             title = "Radio System";
             values[] = {0,1};
             texts[] = {"Off","TFR"};
-            default = 1;
+            default = 0;
             code = "f_var_radios = %1";
     };
 
