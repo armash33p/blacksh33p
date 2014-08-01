@@ -89,21 +89,6 @@ class Params
 
 // ============================================================================================
 
-// F3 - Radio Systems Support
-// Credits: Please see the F3 online manual (http://www.ferstaberinde.com/f3/en/)
-
-    class f_param_radios
-    {
-            title = "Radio System";
-            values[] = {0,1};
-            texts[] = {"Off","TFR"};
-            default = 0;
-            code = "f_var_radios = %1";
-    };
-
-
-// ============================================================================================
-
 // F3 - Mission Conditions Selector
 // Credits: Please see the F3 online manual (http://www.ferstaberinde.com/f3/en/)
 

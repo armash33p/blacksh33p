@@ -90,14 +90,5 @@ f_showVehicle_Nametags = false;	// Show vehicle player is in
 
 // ====================================================================================
 
-// ====================================================================================
-
-// F3 - Radio Framework
-// Credits: Please see the F3 online manual (http://www.ferstaberinde.com/f3/en/)
-
-[] execVM "f\radios\radio_init.sqf";
-
-// ====================================================================================
-
 // Include Sh33p init file
 #include "s\init.sqf"
