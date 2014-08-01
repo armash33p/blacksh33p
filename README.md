@@ -1,10 +1,10 @@
-Black Sh33p Mission Template
+Green Pastures Framework
 ==========
 
 ### No Bullshit; Just Fun.
 
 #### Overview
-This repository contains mission scripts and assets utilized by
+This repository contains the *Green Pastures Framework*, mission scripts, and assets utilized by
 the [Black Sh33p](http://blacksh33p.net/aboutus/) ARMA3 community.
 
 #### Licensing
@@ -36,12 +36,20 @@ magic ways of SQF along the way.
 We also heavily utilize [DAC](http://forums.bistudio.com/showthread.php?176926-DAC-V3-1-(Dynamic-AI-Creator)-released&p=2677923&viewfull=1#post2677923) from Silola to manage our AI
 spawning and logic. Without this amazing tool, our missions would be very plain indeed.
 
+Major thanks to [Bourbon Warfare](http://www.bourbonwarfare.com/) for some killer joint operations, and especially to Pabst for his Spectator script!
+
 #### Repository Structure
-* *F3.Altis* - the standard mission template, based of the F3 framework
+* *GPF.Altis* - the standard mission template, based of the F3 framework
 	but modified by Black Sh33p, for Black Sh33p
   * *s* - directory containing Black Sh33p additions and modifications to F3.
+	This folder should be used only for additions that are utilized across
+	all (or nearly all) missions. More seldom utilized assets, scripts,
+	etc, should be placed in the *mission-assets* folder.
 	Changes are isolated from F3 as much as possible for forward compatibility
-* *missions* - contains all mission source files
+  * *f* - stripped down F3 framework scripts
+  * *bw* - Scripts stolen consentually from [Bourbon Warfare](http://www.bourbonwarfare.com/)
+  * *hc* - Headless client initialization and spawn scripts
+  * *DAC* - DAC AI scripts by Silola, slightly modified for headless client compatibility
 * *mission-assets* - various templates and commonly used items that can
 	be merged into missions easily for additional functionality
 * *README.md* - you're reading it!
