@@ -250,14 +250,5 @@ class CfgFunctions
 			file = "f\nametag";
 			class drawNameTag{};
 		};
-		class radios
-		{
-			file = "f\radios";
-			class tfr_removeRadios{};
-			class tfr_addRadios{};
-			class tfr_setRadioFrequencies{};
-			class tfr_configureSpectatorChat{};
-		};
-
 	};
 };
