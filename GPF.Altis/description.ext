@@ -245,10 +245,5 @@ class CfgFunctions
 			class localGroupMarker{};
 			class localSpecialistMarker{};
 		};
-		class nametag
-		{
-			file = "f\nametag";
-			class drawNameTag{};
-		};
 	};
 };

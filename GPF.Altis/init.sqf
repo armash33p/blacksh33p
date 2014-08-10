@@ -63,16 +63,6 @@ f_var_viewDistance_fixedWing = 5000;
 f_var_viewDistance_crewOnly = true;
 [] execVM "f\dynamicViewDistance\f_setViewDistanceLoop.sqf";
 
-// ====================================================================================
-
-// F3 - Name Tags
-// Credits: Please see the F3 online manual (http://www.ferstaberinde.com/f3/en/)
-
-f_showGroup_Nametags = false; // Display unit's group (uses GroupID)
-f_showDistance_Nametags = false; // Show distance to player
-f_showVehicle_Nametags = false;	// Show vehicle player is in
-[5] execVM "f\nametag\f_nametags.sqf";
-
 
 // ====================================================================================
 
