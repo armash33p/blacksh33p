@@ -189,6 +189,29 @@ switch (_this select 0) do
 		_setSupTime = ["5 + ((skill _unit) * (5 * DAC_AI_Level))",2,5];
 		_setHidTime = ["(((10 * DAC_AI_Level) + ((skill _leader) * 50)) / ((count units _group) + 1))"];
 	};
+// CIVILIANS
+// Should only walk and run from firefights
+// Will occasionally enter buildings
+	case 8:
+	{
+		//_setSkill = [global min,global max];
+		_setSkill   = [0.2,0.2];
+		_setCombat  = ["blue"];
+		_setBehav   = ["careless"];
+		_setSpeed   = ["normal"];
+		_setForm    = ["vee", "line", "stag column"];
+		_setFleeing = [0.9,25];
+		_setHeliVal = [50,100,0.7,1];
+		_setPause   = [[1,120],[1,5],[1,1],[20,30,5,5],[1,3],[0,0]];
+		_setBldgBeh = [4,150,120,30,1];
+		_setPatrol  = ["20","60"];
+		_setSearch  = ["1","1"];
+		_setSupport = [0,0];//support for other zones //opfor arti
+		_setJoin    = 0;
+		_setEmpVeh  = [[100,75],[1,0]];
+		_setSupTime = ["1",1,1];
+		_setHidTime = ["round(random(120))"];
+	};
 //-------------------------------------------------------------------------------------------------------------------------
 	Default {
 				if(DAC_Basic_Value != 5) then
